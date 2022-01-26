@@ -8,15 +8,15 @@
     "issues": "https://github.com/Automattic/newspack-theme/issues"
   },
   "require-dev": {
-    "composer/installers": "~1.7",
+    "composer/installers": "~2.0",
     "automattic/vipwpcs": "^2.0",
     "wp-coding-standards/wpcs": "^2.1",
     "phpcompatibility/phpcompatibility-wp": "^2.1",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
     "brainmaestro/composer-git-hooks": "^2.8",
     "wptrt/wpthemereview": "*",
-    "phpstan/phpstan-shim": "^0.11.12",
-    "szepeviktor/phpstan-wordpress": "^0.2.0",
+    "phpstan/phpstan-shim": "^0.12.0",
+    "szepeviktor/phpstan-wordpress": "^0.6.0",
     "xwp/wp-dev-lib": "^1.5"
   },
   "scripts": {
@@ -36,7 +36,7 @@
     "hooks": {
       "pre-commit": "DEV_LIB_SKIP=eslint ./vendor/xwp/wp-dev-lib/scripts/pre-commit && ./node_modules/.bin/lint-staged",
       "commit-msg": [
-        "cat $1 | ./node_modules/.bin/commitlint"
+        "cat $1 | ./node_modules/.bin/newspack-scripts commitlint"
       ]
     }
   }

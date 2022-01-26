@@ -5,7 +5,7 @@ Author: Automattic
 Author URI: https://newspack.blog
 Description:
 Requires at least: WordPress 4.9.6
-Version: 1.0.0-alpha.33
+Version: 1.55.4
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Template: newspack-theme
@@ -84,6 +84,14 @@ body:not( .h-stk ) .site-breadcrumb {
 
 	@include media( desktop ) {
 		margin-top: #{-6 * $size__spacing-unit};
+	}
+}
+
+body:not( .h-stk ).single-featured-image-beside,
+body:not( .h-stk ).single-featured-image-behind,
+body:not( .h-stk ).single-featured-image-above {
+	.site-content {
+		margin-top: 0;
 	}
 }
 
@@ -231,6 +239,7 @@ body:not( .h-sb ) .site-header {
 	.single-featured-image-beside {
 		.site-header {
 			padding: 0;
+			z-index: 2;
 		}
 
 		#primary {
@@ -355,10 +364,6 @@ div.wpnbha .article-section-title {
 
 blockquote {
 	font-family: $font__heading;
-
-	p {
-		font-weight: 800;
-	}
 }
 
 //! Paragraph
@@ -392,11 +397,21 @@ blockquote {
 //! Pullquote
 .wp-block-pullquote {
 	border-width: 16px 0 4px;
+	font-weight: bold;
 
 	blockquote p,
 	&.is-style-solid-color blockquote p {
 		@include media( tablet ) {
 			font-size: $font__size-xl;
+		}
+	}
+
+	&.has-text-align-right:not( .alignleft ):not( .alignright ),
+	&.has-text-align-left:not( .alignleft ):not( .alignright ) {
+		@include media( tablet ) {
+			p {
+				font-size: $font__size-xl;
+			}
 		}
 	}
 
@@ -417,7 +432,6 @@ blockquote {
 	}
 
 	cite {
-		font-weight: bold;
 		letter-spacing: 0.05em;
 		opacity: 0.9;
 	}
@@ -450,7 +464,8 @@ blockquote {
 			width: 75%;
 		}
 
-		&.is-style-solid-color::before {
+		&.is-style-solid-color::before,
+		&[style*='border-width']::before {
 			display: none;
 		}
 	}

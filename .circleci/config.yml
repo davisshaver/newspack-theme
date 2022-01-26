@@ -10,7 +10,7 @@ commands:
 jobs:
   build:
     docker:
-      - image: circleci/node:12
+      - image: cimg/node:16.11.1
     steps:
       - checkout_code
       - run:
@@ -24,7 +24,7 @@ jobs:
   # Linting
   lint:
     docker:
-      - image: circleci/node:12
+      - image: cimg/node:16.11.1
     steps:
       - checkout_code
       - run:
@@ -34,7 +34,7 @@ jobs:
   # Release job
   release:
     docker:
-      - image: circleci/node:12
+      - image: cimg/node:16.11.1
     steps:
       - checkout_code
       - run:
@@ -48,19 +48,15 @@ jobs:
   # Reset alpha branch after a release and publish child themes' releases
   post_release:
     docker:
-      - image: circleci/node:12
+      - image: cimg/node:16.11.1
     steps:
       - checkout_code
       - run:
-          name: Set tip of alpha branch on top of release and force-push it to remote
-          command: |
-            git pull origin release
-            git checkout alpha
-            git reset --hard release --
-            git push "https://$GITHUB_TOKEN@github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git" --force
-      - run:
           name: Publish child themes' releases
           command: node scripts/create-child-releases.js --run
+      - run:
+          name: Perform post-release chores
+          command: ./node_modules/newspack-scripts/post-release.sh
 
 workflows:
   version: 2
@@ -78,6 +74,7 @@ workflows:
               only:
                 - release
                 - alpha
+                - /^hotfix\/.*/
       - post_release:
           requires:
             - release

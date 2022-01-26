@@ -448,7 +448,7 @@ function newspack_scripts() {
 			'script_loader_tag',
 			function( $tag, $handle, $src ) {
 				if ( 'newspack-amp-plus' == $handle ) {
-					return '<script data-amp-plus-allowed src="' . $src . '"></script>';
+					return '<script data-amp-plus-allowed async src="' . $src . '"></script>';
 				}
 				return $tag;
 			},
@@ -1246,6 +1246,6 @@ require get_template_directory() . '/inc/web-stories.php';
 /**
  * Load The Events Calendar compatibility file.
  */
-if ( class_exists( 'Tribe__Main' ) ) {
+if ( class_exists( 'Tribe__Events__Main' ) ) {
 	require get_template_directory() . '/inc/the-events-calendar.php';
 }
