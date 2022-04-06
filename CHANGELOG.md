@@ -1,3 +1,121 @@
+# [1.57.0](https://github.com/Automattic/newspack-theme/compare/v1.56.2...v1.57.0) (2022-04-05)
+
+
+### Bug Fixes
+
+* add a --wp--style--block-gap default for the button block ([#1738](https://github.com/Automattic/newspack-theme/issues/1738)) ([1cca280](https://github.com/Automattic/newspack-theme/commit/1cca28059efa3abb98bbf15b1a2094cfdbe7400d))
+* align square logos to the left on smaller screens ([#1747](https://github.com/Automattic/newspack-theme/issues/1747)) ([1aec323](https://github.com/Automattic/newspack-theme/commit/1aec323acc7cdc2f23979f9609e93d9618e02aae))
+* make cover block link styles more specific ([#1745](https://github.com/Automattic/newspack-theme/issues/1745)) ([e5a1d68](https://github.com/Automattic/newspack-theme/commit/e5a1d685e72671e83253843fe8ee069b435c56f6))
+* remove bottom space from last block in cover block ([#1744](https://github.com/Automattic/newspack-theme/issues/1744)) ([180600c](https://github.com/Automattic/newspack-theme/commit/180600c0c6d37b0583ed7906bd3965c3e4d23f40))
+* update ad spacing and move ad background styles([#1742](https://github.com/Automattic/newspack-theme/issues/1742)) ([199df51](https://github.com/Automattic/newspack-theme/commit/199df51e544f044a0ac752eb160307a818b607bd))
+* update approach to remove space with above footer ad ([#1746](https://github.com/Automattic/newspack-theme/issues/1746)) ([fe36561](https://github.com/Automattic/newspack-theme/commit/fe365618a1cb6dbcfed5ed46b76f843c7f9e80ec))
+
+
+### Features
+
+* **newsletters:** custom newsletter styles ([#1730](https://github.com/Automattic/newspack-theme/issues/1730)) ([0a47ee1](https://github.com/Automattic/newspack-theme/commit/0a47ee1db2ab6ac59702978e96fc4e61bb12183b))
+
+# [1.57.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.56.2...v1.57.0-alpha.1) (2022-03-31)
+
+
+### Bug Fixes
+
+* add a --wp--style--block-gap default for the button block ([#1738](https://github.com/Automattic/newspack-theme/issues/1738)) ([1cca280](https://github.com/Automattic/newspack-theme/commit/1cca28059efa3abb98bbf15b1a2094cfdbe7400d))
+* align square logos to the left on smaller screens ([#1747](https://github.com/Automattic/newspack-theme/issues/1747)) ([1aec323](https://github.com/Automattic/newspack-theme/commit/1aec323acc7cdc2f23979f9609e93d9618e02aae))
+* make cover block link styles more specific ([#1745](https://github.com/Automattic/newspack-theme/issues/1745)) ([e5a1d68](https://github.com/Automattic/newspack-theme/commit/e5a1d685e72671e83253843fe8ee069b435c56f6))
+* remove bottom space from last block in cover block ([#1744](https://github.com/Automattic/newspack-theme/issues/1744)) ([180600c](https://github.com/Automattic/newspack-theme/commit/180600c0c6d37b0583ed7906bd3965c3e4d23f40))
+* update ad spacing and move ad background styles([#1742](https://github.com/Automattic/newspack-theme/issues/1742)) ([199df51](https://github.com/Automattic/newspack-theme/commit/199df51e544f044a0ac752eb160307a818b607bd))
+* update approach to remove space with above footer ad ([#1746](https://github.com/Automattic/newspack-theme/issues/1746)) ([fe36561](https://github.com/Automattic/newspack-theme/commit/fe365618a1cb6dbcfed5ed46b76f843c7f9e80ec))
+
+
+### Features
+
+* **newsletters:** custom newsletter styles ([#1730](https://github.com/Automattic/newspack-theme/issues/1730)) ([0a47ee1](https://github.com/Automattic/newspack-theme/commit/0a47ee1db2ab6ac59702978e96fc4e61bb12183b))
+
+## [1.56.2](https://github.com/Automattic/newspack-theme/compare/v1.56.1...v1.56.2) (2022-03-22)
+
+
+### Bug Fixes
+
+* dequeue Gutenberg's global styles ([#1724](https://github.com/Automattic/newspack-theme/issues/1724)) ([d96734d](https://github.com/Automattic/newspack-theme/commit/d96734d7a876bd5578c208c74d10d7ab217c139b))
+* remove ads custom media queries ([#1717](https://github.com/Automattic/newspack-theme/issues/1717)) ([6850700](https://github.com/Automattic/newspack-theme/commit/68507001c413226ce39a7c31bacb4793bf4c6dc7))
+
+## [1.56.2-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.56.1...v1.56.2-alpha.1) (2022-03-15)
+
+
+### Bug Fixes
+
+* dequeue Gutenberg's global styles ([#1724](https://github.com/Automattic/newspack-theme/issues/1724)) ([d96734d](https://github.com/Automattic/newspack-theme/commit/d96734d7a876bd5578c208c74d10d7ab217c139b))
+* remove ads custom media queries ([#1717](https://github.com/Automattic/newspack-theme/issues/1717)) ([6850700](https://github.com/Automattic/newspack-theme/commit/68507001c413226ce39a7c31bacb4793bf4c6dc7))
+
+## [1.56.1](https://github.com/Automattic/newspack-theme/compare/v1.56.0...v1.56.1) (2022-03-08)
+
+
+### Bug Fixes
+
+* make sure block styles are inherited when using Pico ([#1707](https://github.com/Automattic/newspack-theme/issues/1707)) ([082d843](https://github.com/Automattic/newspack-theme/commit/082d843df26eff52e18fe6be5f8a77cbc1b2e23c))
+* make sure featured image credits show up for all placements ([#1712](https://github.com/Automattic/newspack-theme/issues/1712)) ([e8cdf61](https://github.com/Automattic/newspack-theme/commit/e8cdf61ed6b03262dfe69552c9495c4ecb236d72))
+* update editor gradient styles ([#1694](https://github.com/Automattic/newspack-theme/issues/1694)) ([0ba3fb0](https://github.com/Automattic/newspack-theme/commit/0ba3fb05804d32c97c14311b7eeff7034c104ee2))
+* update legacy widget title styles to work with block widgets ([#1470](https://github.com/Automattic/newspack-theme/issues/1470)) ([6e956aa](https://github.com/Automattic/newspack-theme/commit/6e956aa8928d51add9a72ca407a6fe87517db291))
+
+## [1.56.1-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.56.0...v1.56.1-alpha.1) (2022-02-24)
+
+
+### Bug Fixes
+
+* make sure block styles are inherited when using Pico ([#1707](https://github.com/Automattic/newspack-theme/issues/1707)) ([082d843](https://github.com/Automattic/newspack-theme/commit/082d843df26eff52e18fe6be5f8a77cbc1b2e23c))
+* make sure featured image credits show up for all placements ([#1712](https://github.com/Automattic/newspack-theme/issues/1712)) ([e8cdf61](https://github.com/Automattic/newspack-theme/commit/e8cdf61ed6b03262dfe69552c9495c4ecb236d72))
+* update editor gradient styles ([#1694](https://github.com/Automattic/newspack-theme/issues/1694)) ([0ba3fb0](https://github.com/Automattic/newspack-theme/commit/0ba3fb05804d32c97c14311b7eeff7034c104ee2))
+* update legacy widget title styles to work with block widgets ([#1470](https://github.com/Automattic/newspack-theme/issues/1470)) ([6e956aa](https://github.com/Automattic/newspack-theme/commit/6e956aa8928d51add9a72ca407a6fe87517db291))
+
+# [1.56.0](https://github.com/Automattic/newspack-theme/compare/v1.55.5...v1.56.0) (2022-02-22)
+
+
+### Bug Fixes
+
+* add left and right spacing to full-width group block ([#1696](https://github.com/Automattic/newspack-theme/issues/1696)) ([9433779](https://github.com/Automattic/newspack-theme/commit/94337797b69416fb20f8969e5d2f7f0c0ab42096))
+* add more specific styles for the MailChimp button ([#1695](https://github.com/Automattic/newspack-theme/issues/1695)) ([d8dd2a7](https://github.com/Automattic/newspack-theme/commit/d8dd2a793d1195731da0faab9acd0585eed3d03c))
+* correct tag contrast issue in Newspack Default ([#1693](https://github.com/Automattic/newspack-theme/issues/1693)) ([d1eafed](https://github.com/Automattic/newspack-theme/commit/d1eafed4e2fac29159c9cdb8990af89d98e4d1cd))
+* increase spacing around footer links on mobile ([#1692](https://github.com/Automattic/newspack-theme/issues/1692)) ([bb7e7f9](https://github.com/Automattic/newspack-theme/commit/bb7e7f9033f1583414953552058bd55a65d6185e))
+* sticky header logo distortion ([#1636](https://github.com/Automattic/newspack-theme/issues/1636)) ([0455d29](https://github.com/Automattic/newspack-theme/commit/0455d291b2d75de8f6c87d69f151806f4f998cda))
+* update styles for the Event Calendar download links ([#1691](https://github.com/Automattic/newspack-theme/issues/1691)) ([dde6bc6](https://github.com/Automattic/newspack-theme/commit/dde6bc6a383bebd26a25f693979f7953e99b76b0))
+
+
+### Features
+
+* full-width scaip ad ([#1699](https://github.com/Automattic/newspack-theme/issues/1699)) ([18bde84](https://github.com/Automattic/newspack-theme/commit/18bde84fb12f842e14d6b0df7009d4f5c0f1978d))
+
+# [1.56.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.55.5...v1.56.0-alpha.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* add left and right spacing to full-width group block ([#1696](https://github.com/Automattic/newspack-theme/issues/1696)) ([9433779](https://github.com/Automattic/newspack-theme/commit/94337797b69416fb20f8969e5d2f7f0c0ab42096))
+* add more specific styles for the MailChimp button ([#1695](https://github.com/Automattic/newspack-theme/issues/1695)) ([d8dd2a7](https://github.com/Automattic/newspack-theme/commit/d8dd2a793d1195731da0faab9acd0585eed3d03c))
+* correct tag contrast issue in Newspack Default ([#1693](https://github.com/Automattic/newspack-theme/issues/1693)) ([d1eafed](https://github.com/Automattic/newspack-theme/commit/d1eafed4e2fac29159c9cdb8990af89d98e4d1cd))
+* increase spacing around footer links on mobile ([#1692](https://github.com/Automattic/newspack-theme/issues/1692)) ([bb7e7f9](https://github.com/Automattic/newspack-theme/commit/bb7e7f9033f1583414953552058bd55a65d6185e))
+* sticky header logo distortion ([#1636](https://github.com/Automattic/newspack-theme/issues/1636)) ([0455d29](https://github.com/Automattic/newspack-theme/commit/0455d291b2d75de8f6c87d69f151806f4f998cda))
+* update styles for the Event Calendar download links ([#1691](https://github.com/Automattic/newspack-theme/issues/1691)) ([dde6bc6](https://github.com/Automattic/newspack-theme/commit/dde6bc6a383bebd26a25f693979f7953e99b76b0))
+
+
+### Features
+
+* full-width scaip ad ([#1699](https://github.com/Automattic/newspack-theme/issues/1699)) ([18bde84](https://github.com/Automattic/newspack-theme/commit/18bde84fb12f842e14d6b0df7009d4f5c0f1978d))
+
+## [1.55.5](https://github.com/Automattic/newspack-theme/compare/v1.55.4...v1.55.5) (2022-02-08)
+
+
+### Bug Fixes
+
+* prevent odd wrapping with multiple categories ([#1689](https://github.com/Automattic/newspack-theme/issues/1689)) ([0afc107](https://github.com/Automattic/newspack-theme/commit/0afc1077564580b10487182c2fa4ac8cdc5ec2f6))
+
+## [1.55.5-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.55.4...v1.55.5-alpha.1) (2022-01-27)
+
+
+### Bug Fixes
+
+* prevent odd wrapping with multiple categories ([#1689](https://github.com/Automattic/newspack-theme/issues/1689)) ([0afc107](https://github.com/Automattic/newspack-theme/commit/0afc1077564580b10487182c2fa4ac8cdc5ec2f6))
+
 ## [1.55.4](https://github.com/Automattic/newspack-theme/compare/v1.55.3...v1.55.4) (2022-01-25)
 
 
