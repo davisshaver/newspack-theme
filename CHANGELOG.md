@@ -1,3 +1,28 @@
+## [1.57.2](https://github.com/Automattic/newspack-theme/compare/v1.57.1...v1.57.2) (2022-04-18)
+
+
+### Bug Fixes
+
+* correct display issues with floated group, iframe and image blocks ([#1750](https://github.com/Automattic/newspack-theme/issues/1750)) ([3d20b0e](https://github.com/Automattic/newspack-theme/commit/3d20b0e41ce94927f90d3829fdfa62639c9ae00c))
+* define some of the global styles in the theme ([#1749](https://github.com/Automattic/newspack-theme/issues/1749)) ([119101a](https://github.com/Automattic/newspack-theme/commit/119101abcd5f9c9caeeb5b171802be1edd369581))
+* make sure fullwidth captions don't get cut off ([#1752](https://github.com/Automattic/newspack-theme/issues/1752)) ([5354169](https://github.com/Automattic/newspack-theme/commit/5354169e7c611356fb8e447bbba3ce847a7c4cb7))
+
+## [1.57.2-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.57.1...v1.57.2-alpha.1) (2022-04-07)
+
+
+### Bug Fixes
+
+* correct display issues with floated group, iframe and image blocks ([#1750](https://github.com/Automattic/newspack-theme/issues/1750)) ([3d20b0e](https://github.com/Automattic/newspack-theme/commit/3d20b0e41ce94927f90d3829fdfa62639c9ae00c))
+* define some of the global styles in the theme ([#1749](https://github.com/Automattic/newspack-theme/issues/1749)) ([119101a](https://github.com/Automattic/newspack-theme/commit/119101abcd5f9c9caeeb5b171802be1edd369581))
+* make sure fullwidth captions don't get cut off ([#1752](https://github.com/Automattic/newspack-theme/issues/1752)) ([5354169](https://github.com/Automattic/newspack-theme/commit/5354169e7c611356fb8e447bbba3ce847a7c4cb7))
+
+## [1.57.1](https://github.com/Automattic/newspack-theme/compare/v1.57.0...v1.57.1) (2022-04-07)
+
+
+### Bug Fixes
+
+* change custom ads bg classname ([#1759](https://github.com/Automattic/newspack-theme/issues/1759)) ([34bf5da](https://github.com/Automattic/newspack-theme/commit/34bf5da3dccf38176fcb73fd5212578853d50a16))
+
 # [1.57.0](https://github.com/Automattic/newspack-theme/compare/v1.56.2...v1.57.0) (2022-04-05)
 
 
