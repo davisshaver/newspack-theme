@@ -1,3 +1,60 @@
+## [1.58.2](https://github.com/Automattic/newspack-theme/compare/v1.58.1...v1.58.2) (2022-05-25)
+
+
+### Bug Fixes
+
+* remove custom column block styles ([#1817](https://github.com/Automattic/newspack-theme/issues/1817)) ([9d2632c](https://github.com/Automattic/newspack-theme/commit/9d2632cda5b8de0d441d8928e07e6d8e451825c6))
+
+## [1.58.1](https://github.com/Automattic/newspack-theme/compare/v1.58.0...v1.58.1) (2022-05-18)
+
+
+### Bug Fixes
+
+* correct author alignment when date is hidden ([#1777](https://github.com/Automattic/newspack-theme/issues/1777)) ([1591f3d](https://github.com/Automattic/newspack-theme/commit/1591f3d1692c514620b8fb66ca1f7a98c2582385))
+* **sponsors:** ensure sponsor bios appear above Related Posts module ([#1792](https://github.com/Automattic/newspack-theme/issues/1792)) ([53db042](https://github.com/Automattic/newspack-theme/commit/53db042277a839b9c81892330bc8752992801c18))
+* update quote block styles for WordPress 6.0 ([#1797](https://github.com/Automattic/newspack-theme/issues/1797)) ([46af05a](https://github.com/Automattic/newspack-theme/commit/46af05a6dcdb43716b0d03e00efa37110bd8c890))
+* update separator editor styles for WordPress 6.0 ([#1798](https://github.com/Automattic/newspack-theme/issues/1798)) ([beff7f9](https://github.com/Automattic/newspack-theme/commit/beff7f91f892646bb8eeac7fbf98d4a902b274eb))
+
+## [1.58.1-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.58.0...v1.58.1-alpha.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* correct author alignment when date is hidden ([#1777](https://github.com/Automattic/newspack-theme/issues/1777)) ([1591f3d](https://github.com/Automattic/newspack-theme/commit/1591f3d1692c514620b8fb66ca1f7a98c2582385))
+* **sponsors:** ensure sponsor bios appear above Related Posts module ([#1792](https://github.com/Automattic/newspack-theme/issues/1792)) ([53db042](https://github.com/Automattic/newspack-theme/commit/53db042277a839b9c81892330bc8752992801c18))
+* update quote block styles for WordPress 6.0 ([#1797](https://github.com/Automattic/newspack-theme/issues/1797)) ([46af05a](https://github.com/Automattic/newspack-theme/commit/46af05a6dcdb43716b0d03e00efa37110bd8c890))
+* update separator editor styles for WordPress 6.0 ([#1798](https://github.com/Automattic/newspack-theme/issues/1798)) ([beff7f9](https://github.com/Automattic/newspack-theme/commit/beff7f91f892646bb8eeac7fbf98d4a902b274eb))
+
+# [1.58.0](https://github.com/Automattic/newspack-theme/compare/v1.57.2...v1.58.0) (2022-05-03)
+
+
+### Bug Fixes
+
+* correct margin issue in editor with floated images ([#1781](https://github.com/Automattic/newspack-theme/issues/1781)) ([cf4e008](https://github.com/Automattic/newspack-theme/commit/cf4e008d0c6a83e2800d31291a3992036a2d0a76))
+* make sure captions and credits inherit colours ([#1775](https://github.com/Automattic/newspack-theme/issues/1775)) ([302b2e3](https://github.com/Automattic/newspack-theme/commit/302b2e3b430e9309881928b1d5db6a9b1bcc95b9))
+* make sure links remain white in the carousel block ([#1778](https://github.com/Automattic/newspack-theme/issues/1778)) ([88f20e9](https://github.com/Automattic/newspack-theme/commit/88f20e9afcdd377ed0a4359bcb892b42d9e2485f))
+* remove unneeded featured image content option ([#1776](https://github.com/Automattic/newspack-theme/issues/1776)) ([1afddcf](https://github.com/Automattic/newspack-theme/commit/1afddcf9252a8eb6f79ccdde394bee1ff9350746))
+
+
+### Features
+
+* add custom style to subscribe patterns ([#1760](https://github.com/Automattic/newspack-theme/issues/1760)) ([83a836e](https://github.com/Automattic/newspack-theme/commit/83a836ecf8bf08899525265a783035dc13b79365))
+
+# [1.58.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.57.2...v1.58.0-alpha.1) (2022-05-02)
+
+
+### Bug Fixes
+
+* correct margin issue in editor with floated images ([#1781](https://github.com/Automattic/newspack-theme/issues/1781)) ([cf4e008](https://github.com/Automattic/newspack-theme/commit/cf4e008d0c6a83e2800d31291a3992036a2d0a76))
+* make sure captions and credits inherit colours ([#1775](https://github.com/Automattic/newspack-theme/issues/1775)) ([302b2e3](https://github.com/Automattic/newspack-theme/commit/302b2e3b430e9309881928b1d5db6a9b1bcc95b9))
+* make sure links remain white in the carousel block ([#1778](https://github.com/Automattic/newspack-theme/issues/1778)) ([88f20e9](https://github.com/Automattic/newspack-theme/commit/88f20e9afcdd377ed0a4359bcb892b42d9e2485f))
+* remove unneeded featured image content option ([#1776](https://github.com/Automattic/newspack-theme/issues/1776)) ([1afddcf](https://github.com/Automattic/newspack-theme/commit/1afddcf9252a8eb6f79ccdde394bee1ff9350746))
+
+
+### Features
+
+* add custom style to subscribe patterns ([#1760](https://github.com/Automattic/newspack-theme/issues/1760)) ([83a836e](https://github.com/Automattic/newspack-theme/commit/83a836ecf8bf08899525265a783035dc13b79365))
+
 ## [1.57.2](https://github.com/Automattic/newspack-theme/compare/v1.57.1...v1.57.2) (2022-04-18)
 
 
