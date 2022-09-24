@@ -1,3 +1,131 @@
+## [1.63.1](https://github.com/Automattic/newspack-theme/compare/v1.63.0...v1.63.1) (2022-09-14)
+
+
+### Bug Fixes
+
+* update print styles to add SCAIP, Broadstreet, and Pico ([#1913](https://github.com/Automattic/newspack-theme/issues/1913)) ([738ceac](https://github.com/Automattic/newspack-theme/commit/738ceacf71825d7a4d58eb52f73d59d059ea2556))
+
+## [1.63.1-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.63.0...v1.63.1-alpha.1) (2022-08-26)
+
+
+### Bug Fixes
+
+* update print styles to add SCAIP, Broadstreet, and Pico ([#1913](https://github.com/Automattic/newspack-theme/issues/1913)) ([738ceac](https://github.com/Automattic/newspack-theme/commit/738ceacf71825d7a4d58eb52f73d59d059ea2556))
+
+# [1.63.0](https://github.com/Automattic/newspack-theme/compare/v1.62.0...v1.63.0) (2022-08-16)
+
+
+### Bug Fixes
+
+* **registration-block:** make sure font-family in the editor matches front-end ([#1889](https://github.com/Automattic/newspack-theme/issues/1889)) ([e0c4309](https://github.com/Automattic/newspack-theme/commit/e0c4309f4f8bd640a8e0c5a8804ff3b1c72b8659))
+* use proper variable and escape function for primary color ([#1898](https://github.com/Automattic/newspack-theme/issues/1898)) ([1062b1a](https://github.com/Automattic/newspack-theme/commit/1062b1a44861d3a9e6503afd6215b6ae9cc7dbbc))
+
+
+### Features
+
+* add custom style for upcoming registration pattern (style 1) ([#1888](https://github.com/Automattic/newspack-theme/issues/1888)) ([58f303d](https://github.com/Automattic/newspack-theme/commit/58f303d55b5e3c2509bc88ddfdec37af34b00621))
+* Add featured listing styles ([#1877](https://github.com/Automattic/newspack-theme/issues/1877)) ([efc4936](https://github.com/Automattic/newspack-theme/commit/efc49368925af508b07926097c4862c24f1aa243))
+* colors' css variables and action hook for mobile toggle ([#1875](https://github.com/Automattic/newspack-theme/issues/1875)) ([0830ca7](https://github.com/Automattic/newspack-theme/commit/0830ca784639ac40ad05adbf85938e6dda8e77ec))
+* redesign "My Account" page ([#1879](https://github.com/Automattic/newspack-theme/issues/1879)) ([9258f21](https://github.com/Automattic/newspack-theme/commit/9258f2137b22293f9c8df1ff938557dc416d86e9))
+
+# [1.63.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.63.0-alpha.1...v1.63.0-alpha.2) (2022-08-12)
+
+
+### Bug Fixes
+
+* use proper variable and escape function for primary color ([#1898](https://github.com/Automattic/newspack-theme/issues/1898)) ([1062b1a](https://github.com/Automattic/newspack-theme/commit/1062b1a44861d3a9e6503afd6215b6ae9cc7dbbc))
+
+# [1.63.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.62.0...v1.63.0-alpha.1) (2022-08-05)
+
+
+### Bug Fixes
+
+* **registration-block:** make sure font-family in the editor matches front-end ([#1889](https://github.com/Automattic/newspack-theme/issues/1889)) ([e0c4309](https://github.com/Automattic/newspack-theme/commit/e0c4309f4f8bd640a8e0c5a8804ff3b1c72b8659))
+
+
+### Features
+
+* add custom style for upcoming registration pattern (style 1) ([#1888](https://github.com/Automattic/newspack-theme/issues/1888)) ([58f303d](https://github.com/Automattic/newspack-theme/commit/58f303d55b5e3c2509bc88ddfdec37af34b00621))
+* Add featured listing styles ([#1877](https://github.com/Automattic/newspack-theme/issues/1877)) ([efc4936](https://github.com/Automattic/newspack-theme/commit/efc49368925af508b07926097c4862c24f1aa243))
+* colors' css variables and action hook for mobile toggle ([#1875](https://github.com/Automattic/newspack-theme/issues/1875)) ([0830ca7](https://github.com/Automattic/newspack-theme/commit/0830ca784639ac40ad05adbf85938e6dda8e77ec))
+* redesign "My Account" page ([#1879](https://github.com/Automattic/newspack-theme/issues/1879)) ([9258f21](https://github.com/Automattic/newspack-theme/commit/9258f2137b22293f9c8df1ff938557dc416d86e9))
+
+# [1.62.0](https://github.com/Automattic/newspack-theme/compare/v1.61.0...v1.62.0) (2022-07-26)
+
+
+### Features
+
+* add option to re-allow FSE blocks ([#1876](https://github.com/Automattic/newspack-theme/issues/1876)) ([5f66510](https://github.com/Automattic/newspack-theme/commit/5f66510d80343aba24f6535fa8c396ff9f10f4e6))
+* support new sponsor options to show authors and categories ([#1833](https://github.com/Automattic/newspack-theme/issues/1833)) ([66c2045](https://github.com/Automattic/newspack-theme/commit/66c204530c71b8eadc15f316c91a8d8ec930b550))
+
+# [1.62.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.61.0...v1.62.0-alpha.1) (2022-07-14)
+
+
+### Features
+
+* add option to re-allow FSE blocks ([#1876](https://github.com/Automattic/newspack-theme/issues/1876)) ([5f66510](https://github.com/Automattic/newspack-theme/commit/5f66510d80343aba24f6535fa8c396ff9f10f4e6))
+* support new sponsor options to show authors and categories ([#1833](https://github.com/Automattic/newspack-theme/issues/1833)) ([66c2045](https://github.com/Automattic/newspack-theme/commit/66c204530c71b8eadc15f316c91a8d8ec930b550))
+
+# [1.61.0](https://github.com/Automattic/newspack-theme/compare/v1.60.0...v1.61.0) (2022-07-11)
+
+
+### Bug Fixes
+
+* correct issue with duplicated Trust Indicator role in author bio ([#1848](https://github.com/Automattic/newspack-theme/issues/1848)) ([0034432](https://github.com/Automattic/newspack-theme/commit/003443253746d3cdb7101422e3eb4bbf19c5d64f))
+* eslint error ([#1863](https://github.com/Automattic/newspack-theme/issues/1863)) ([a07f2de](https://github.com/Automattic/newspack-theme/commit/a07f2defd508080b8817fcbbb80096419da272eb))
+* update check for theme's default template ([#1858](https://github.com/Automattic/newspack-theme/issues/1858)) ([f46b79b](https://github.com/Automattic/newspack-theme/commit/f46b79b5838286c2eef9758dfb5c7035eefbe607))
+
+
+### Features
+
+* deprecate support for Hoefler & Co. fonts ([#1857](https://github.com/Automattic/newspack-theme/issues/1857)) ([db7af77](https://github.com/Automattic/newspack-theme/commit/db7af77f03ee7c6a54614a596840684eee2646b3))
+
+# [1.61.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.60.0...v1.61.0-alpha.1) (2022-06-30)
+
+
+### Bug Fixes
+
+* correct issue with duplicated Trust Indicator role in author bio ([#1848](https://github.com/Automattic/newspack-theme/issues/1848)) ([0034432](https://github.com/Automattic/newspack-theme/commit/003443253746d3cdb7101422e3eb4bbf19c5d64f))
+* eslint error ([#1863](https://github.com/Automattic/newspack-theme/issues/1863)) ([a07f2de](https://github.com/Automattic/newspack-theme/commit/a07f2defd508080b8817fcbbb80096419da272eb))
+* update check for theme's default template ([#1858](https://github.com/Automattic/newspack-theme/issues/1858)) ([f46b79b](https://github.com/Automattic/newspack-theme/commit/f46b79b5838286c2eef9758dfb5c7035eefbe607))
+
+
+### Features
+
+* deprecate support for Hoefler & Co. fonts ([#1857](https://github.com/Automattic/newspack-theme/issues/1857)) ([db7af77](https://github.com/Automattic/newspack-theme/commit/db7af77f03ee7c6a54614a596840684eee2646b3))
+
+# [1.60.0](https://github.com/Automattic/newspack-theme/compare/v1.59.0...v1.60.0) (2022-06-27)
+
+
+### Bug Fixes
+
+* improve dropdown menu accessibility ([#1808](https://github.com/Automattic/newspack-theme/issues/1808)) ([9846444](https://github.com/Automattic/newspack-theme/commit/984644407faa7b30acc38752f2cfbac971cb4f3b))
+* make sure the search forms have a predictable unique ID ([#1834](https://github.com/Automattic/newspack-theme/issues/1834)) ([dcc2642](https://github.com/Automattic/newspack-theme/commit/dcc264213e7baa1adeed8ffb8ee62eae40b43109))
+
+
+### Features
+
+* add checkbox style ([#1840](https://github.com/Automattic/newspack-theme/issues/1840)) ([6cb095e](https://github.com/Automattic/newspack-theme/commit/6cb095e5bb454090ef39802c51d1bf8882092549))
+* add single post body class for Yoast's primary category ([370cfe6](https://github.com/Automattic/newspack-theme/commit/370cfe6a5a1e4f4f3ef1c14685920a4b1dbdb856))
+* add template without header or footer ([#1826](https://github.com/Automattic/newspack-theme/issues/1826)) ([623480a](https://github.com/Automattic/newspack-theme/commit/623480a162fe29abc70f0c6755da61e11849f34c))
+* remove unneeded FSE blocks ([#1827](https://github.com/Automattic/newspack-theme/issues/1827)) ([87bfee7](https://github.com/Automattic/newspack-theme/commit/87bfee777dc8a75d6443d429939a274801e7c86c))
+
+# [1.60.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.59.0...v1.60.0-alpha.1) (2022-06-16)
+
+
+### Bug Fixes
+
+* improve dropdown menu accessibility ([#1808](https://github.com/Automattic/newspack-theme/issues/1808)) ([9846444](https://github.com/Automattic/newspack-theme/commit/984644407faa7b30acc38752f2cfbac971cb4f3b))
+* make sure the search forms have a predictable unique ID ([#1834](https://github.com/Automattic/newspack-theme/issues/1834)) ([dcc2642](https://github.com/Automattic/newspack-theme/commit/dcc264213e7baa1adeed8ffb8ee62eae40b43109))
+
+
+### Features
+
+* add checkbox style ([#1840](https://github.com/Automattic/newspack-theme/issues/1840)) ([6cb095e](https://github.com/Automattic/newspack-theme/commit/6cb095e5bb454090ef39802c51d1bf8882092549))
+* add single post body class for Yoast's primary category ([370cfe6](https://github.com/Automattic/newspack-theme/commit/370cfe6a5a1e4f4f3ef1c14685920a4b1dbdb856))
+* add template without header or footer ([#1826](https://github.com/Automattic/newspack-theme/issues/1826)) ([623480a](https://github.com/Automattic/newspack-theme/commit/623480a162fe29abc70f0c6755da61e11849f34c))
+* remove unneeded FSE blocks ([#1827](https://github.com/Automattic/newspack-theme/issues/1827)) ([87bfee7](https://github.com/Automattic/newspack-theme/commit/87bfee777dc8a75d6443d429939a274801e7c86c))
+
 # [1.59.0](https://github.com/Automattic/newspack-theme/compare/v1.58.3...v1.59.0) (2022-06-13)
 
 
