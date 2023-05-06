@@ -1,8 +1,6 @@
 @use 'sass:math';
 @use '../../mixins/mixins-master';
 @use '../../mixins/utilities';
-@use '../../variables-site/colors';
-@use '../../variables-site/fonts';
 @use '../../variables-site/structure';
 
 .comment-content a {
@@ -80,7 +78,7 @@
 	> small {
 		bottom: 1em;
 		display: block;
-		font-size: fonts.$font__size_base;
+		font-size: var( --newspack-theme-font-size-base );
 		position: absolute;
 		right: 0;
 		white-space: nowrap;
@@ -118,7 +116,7 @@
 }
 
 .comment-policy {
-	font-size: fonts.$font__size-sm;
+	font-size: var( --newspack-theme-font-size-sm );
 	margin: #{0.5 * structure.$size__spacing-unit} 0 structure.$size__spacing-unit;
 
 	a {
@@ -142,9 +140,9 @@
 	.pingback,
 	.trackback {
 		.comment-body {
-			color: colors.$color__text-light;
-			font-family: fonts.$font__heading;
-			font-size: fonts.$font__size-xs;
+			color: var( --newspack-theme-color-text-light );
+			font-family: var( --newspack-theme-font-heading );
+			font-size: var( --newspack-theme-font-size-xs );
 			font-weight: 500;
 			margin-top: structure.$size__spacing-unit;
 			margin-bottom: structure.$size__spacing-unit;
@@ -157,15 +155,15 @@
 			}
 
 			.comment-edit-link {
-				color: colors.$color__text-light;
-				font-family: fonts.$font__heading;
+				color: var( --newspack-theme-color-text-light );
+				font-family: var( --newspack-theme-font-heading );
 				font-weight: 500;
 			}
 		}
 	}
 
 	#respond .comment-reply-title {
-		font-size: fonts.$font__size_base;
+		font-size: var( --newspack-theme-font-size-base );
 	}
 }
 
@@ -216,13 +214,13 @@
 				color: inherit;
 
 				&:hover {
-					color: colors.$color__primary-variation;
+					color: var( --newspack-theme-color-primary-variation );
 				}
 			}
 		}
 
 		.post-author-badge {
-			background: colors.$color__primary;
+			background: var( --newspack-theme-color-primary );
 			border-radius: 100%;
 			color: #fff;
 			display: inline-block;
@@ -253,7 +251,7 @@
 		.comment-edit-link {
 			display: inline;
 			font-weight: 500;
-			color: colors.$color__text-light;
+			color: var( --newspack-theme-color-text-light );
 			vertical-align: baseline;
 
 			time {
@@ -261,7 +259,7 @@
 			}
 
 			&:hover {
-				color: colors.$color__primary-variation;
+				color: var( --newspack-theme-color-primary-variation );
 				text-decoration: none;
 			}
 		}
@@ -271,13 +269,13 @@
 		}
 
 		.edit-link-sep {
-			color: colors.$color__text-light;
+			color: var( --newspack-theme-color-text-light );
 			margin: 0 0.2em;
 			vertical-align: baseline;
 		}
 
 		.edit-link {
-			color: colors.$color__text-light;
+			color: var( --newspack-theme-color-text-light );
 
 			svg {
 				transform: scale( 0.8 );
@@ -293,7 +291,7 @@
 			z-index: 1;
 
 			&:hover {
-				color: colors.$color__primary;
+				color: var( --newspack-theme-color-primary );
 			}
 		}
 	}
@@ -328,7 +326,7 @@
 }
 
 .must-log-in {
-	font-size: fonts.$font__size-sm;
+	font-size: var( --newspack-theme-font-size-sm );
 	font-style: italic;
 }
 
@@ -338,7 +336,7 @@
 	font-weight: 500;
 
 	&:hover {
-		color: colors.$color__primary-variation;
+		color: var( --newspack-theme-color-primary-variation );
 	}
 }
 
@@ -380,9 +378,9 @@
 .comment-form {
 	.comment-notes,
 	label {
-		font-family: fonts.$font__heading;
-		font-size: fonts.$font__size-xs;
-		color: colors.$color__text-light;
+		font-family: var( --newspack-theme-font-heading );
+		font-size: var( --newspack-theme-font-size-xs );
+		color: var( --newspack-theme-color-text-light );
 	}
 
 	.comment-form-author,
@@ -426,10 +424,10 @@
 	align-items: center;
 	background: transparent;
 	border-radius: 0;
-	border-top: 1px solid colors.$color__border;
-	color: colors.$color__text-main;
+	border-top: 1px solid var( --newspack-theme-color-border );
+	color: var( --newspack-theme-color-text-main );
 	display: flex;
-	font-size: fonts.$font__size-sm;
+	font-size: var( --newspack-theme-font-size-sm );
 	justify-content: center;
 	margin-top: 0;
 	position: relative;
@@ -442,7 +440,7 @@
 	&:hover,
 	&:focus {
 		background: transparent;
-		color: colors.$color__primary;
+		color: var( --newspack-theme-color-primary );
 	}
 }
 

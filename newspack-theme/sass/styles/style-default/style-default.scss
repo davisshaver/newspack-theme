@@ -1,7 +1,4 @@
-@use 'sass:color';
 @use '../../mixins/utilities';
-@use '../../variables-site/colors';
-@use '../../variables-site/fonts';
 @use '../../variables-site/structure';
 
 /* Headers */
@@ -9,14 +6,14 @@
 .accent-header,
 #secondary .widgettitle,
 .article-section-title {
-	border-bottom: 4px solid colors.$color__border;
-	color: colors.$color__primary;
+	border-bottom: 4px solid var( --newspack-theme-color-border );
+	color: var( --newspack-theme-color-primary );
 	padding-bottom: #{structure.$size__spacing-unit * 0.33};
 }
 
 .accent-header,
 .article-section-title {
-	font-size: fonts.$font__size-sm;
+	font-size: var( --newspack-theme-font-size-sm );
 }
 
 .accent-header,
@@ -29,18 +26,18 @@
 
 .nav3 {
 	a {
-		background-color: color.adjust( colors.$color__text-light, $lightness: 45% );
-		color: colors.$color__text-main;
+		background-color: var( --newspack-theme-color-bg-pre );
+		color: var( --newspack-theme-color-text-main );
 		@include utilities.button-transition;
 
 		border-radius: 5px;
-		font-size: fonts.$font__size-sm;
+		font-size: var( --newspack-theme-font-size-sm );
 		font-weight: 700;
 		padding: #{structure.$size__spacing-unit * 0.5} #{structure.$size__spacing-unit * 0.75};
 	}
 
 	.menu-highlight a {
-		background-color: colors.$color__primary;
+		background-color: var( --newspack-theme-color-primary );
 		border: 0;
 		color: #fff;
 		padding: #{structure.$size__spacing-unit * 0.5} #{structure.$size__spacing-unit * 0.75};
@@ -49,12 +46,12 @@
 
 .h-sb .site-header .nav3 {
 	a {
-		background-color: color.adjust( colors.$color__primary, $lightness: -10% );
+		background-color: var( --newspack-theme-color-primary-darken-10 );
 		color: #fff;
 	}
 
 	.menu-highlight a {
-		background-color: colors.$color__secondary;
+		background-color: var( --newspack-theme-color-secondary );
 	}
 }
 
@@ -64,7 +61,7 @@
 	li.menu-highlight a {
 		&:hover,
 		&:focus {
-			background-color: colors.$color__text-main;
+			background-color: var( --newspack-theme-color-text-main );
 			color: #fff;
 			opacity: 1;
 		}
@@ -78,7 +75,7 @@
 	}
 
 	.menu-highlight a {
-		background-color: color.adjust( colors.$color__primary, $lightness: -10% );
+		background-color: var( --newspack-theme-color-primary-darken-10 );
 	}
 }
 
@@ -90,7 +87,7 @@
 
 .cat-links {
 	a {
-		background-color: colors.$color__primary;
+		background-color: var( --newspack-theme-color-primary );
 		color: #fff;
 		display: inline-block;
 		line-height: 1;
@@ -102,7 +99,7 @@
 		}
 
 		&:hover {
-			background-color: colors.$color__primary-variation;
+			background-color: var( --newspack-theme-color-primary-variation );
 			color: #fff;
 		}
 	}
@@ -131,7 +128,7 @@
 }
 
 .featured-image-behind .cat-links {
-	font-size: fonts.$font__size-sm;
+	font-size: var( --newspack-theme-font-size-sm );
 	a,
 	a:hover,
 	a:visited {
@@ -162,7 +159,7 @@
 }
 
 footer.entry-footer a {
-	color: colors.$color__primary-variation;
+	color: var( --newspack-theme-color-primary-variation );
 }
 
 .tags-links a {
@@ -176,6 +173,10 @@ footer.entry-footer a {
 	.sep {
 		display: none;
 	}
+}
+
+div.author-bio .author-link {
+	color: var( --newspack-theme-color-primary );
 }
 
 /* Archives */
@@ -198,7 +199,7 @@ footer.entry-footer a {
 .site-footer .footer-branding,
 .site-footer .footer-widgets:first-child {
 	.wrapper {
-		border-top: 4px solid colors.$color__border;
+		border-top: 4px solid var( --newspack-theme-color-border );
 	}
 }
 

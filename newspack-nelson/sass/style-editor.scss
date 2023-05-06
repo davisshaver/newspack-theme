@@ -7,8 +7,6 @@ Newspack Nelson Editor Styles
 @use 'variables-style/variables-style';
 @use '../../newspack-theme/sass/style-editor-base';
 @use '../../newspack-theme/sass/mixins/utilities';
-@use '../../newspack-theme/sass/variables-site/colors';
-@use '../../newspack-theme/sass/variables-site/fonts';
 @use '../../newspack-theme/sass/variables-site/structure';
 
 // Elements
@@ -22,16 +20,16 @@ h4,
 }
 
 blockquote {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 }
 
 // Accent Headers
 
 .accent-header,
 .article-section-title {
-	color: colors.$color__text-light;
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size-xs;
+	color: var( --newspack-theme-color-text-light );
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-xs );
 	font-weight: bold;
 }
 
@@ -49,15 +47,16 @@ blockquote {
 	}
 }
 
-.entry-meta .byline a {
-	color: colors.$color__text-light;
+.entry-meta .byline a,
+.wpnbha .entry-meta .byline a {
+	color: var( --newspack-theme-color-text-light );
 }
 
 // Blocks
 
 .wp-block-newspack-blocks-homepage-articles {
 	article .entry-meta {
-		font-size: #{0.7 * fonts.$font__size_base};
+		font-size: calc( 0.7 * var( --newspack-theme-font-size-base ) );
 	}
 
 	&.type-scale1,
@@ -65,7 +64,7 @@ blockquote {
 	&.type-scale3,
 	&.type-scale4 {
 		article .entry-meta {
-			font-size: #{0.6 * fonts.$font__size_base};
+			font-size: calc( 0.6 * var( --newspack-theme-font-size-base ) );
 		}
 	}
 }
@@ -78,8 +77,8 @@ blockquote {
 }
 
 .has-drop-cap:not( :focus )::first-letter {
-	color: colors.$color__secondary;
-	font-family: fonts.$font__heading;
+	color: var( --newspack-theme-color-secondary );
+	font-family: var( --newspack-theme-font-heading );
 	font-weight: 800;
 }
 
@@ -97,10 +96,10 @@ blockquote {
 
 	&.is-style-solid-color blockquote p,
 	blockquote p {
-		font-size: fonts.$font__size-lg;
+		font-size: var( --newspack-theme-font-size-lg );
 
 		@include utilities.media( tablet ) {
-			font-size: fonts.$font__size-xl;
+			font-size: var( --newspack-theme-font-size-xl );
 		}
 	}
 
@@ -133,7 +132,7 @@ blockquote {
 	@include utilities.media( tablet ) {
 		&.is-style-solid-color blockquote p,
 		blockquote p {
-			font-size: fonts.$font__size-lg;
+			font-size: var( --newspack-theme-font-size-lg );
 		}
 	}
 
@@ -154,7 +153,7 @@ blockquote {
 
 .wp-block-separator {
 	&:not( .is-style-dots ) {
-		border-top: 2px solid colors.$color__text-main;
+		border-top: 2px solid var( --newspack-theme-color-text-main );
 
 		&.has-background {
 			border-top-color: currentcolor;
@@ -162,7 +161,7 @@ blockquote {
 	}
 
 	&:not( .is-style-dots ):not( .is-style-wide ) {
-		border-top: 5px solid colors.$color__text-main;
+		border-top: 5px solid var( --newspack-theme-color-text-main );
 
 		&.has-background {
 			border-top-color: currentcolor;
@@ -170,6 +169,6 @@ blockquote {
 	}
 
 	&.is-style-dots::before {
-		color: colors.$color__text-main;
+		color: var( --newspack-theme-color-text-main );
 	}
 }

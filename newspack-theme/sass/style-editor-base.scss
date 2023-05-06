@@ -9,7 +9,7 @@
 /** === Editor Frame === */
 
 body {
-	background-color: colors.$color__background-body;
+	background-color: var( --newspack-theme-color-bg-body );
 }
 
 /** === Content Width === */
@@ -22,14 +22,14 @@ body {
 
 // stylelint-disable-next-line no-duplicate-selectors
 body {
-	font-size: fonts.$font__size_base;
-	font-family: fonts.$font__body;
-	line-height: fonts.$font__line-height-body;
-	color: colors.$color__text-main;
+	font-size: var( --newspack-theme-font-size-base );
+	font-family: var( --newspack-theme-font-body );
+	line-height: var( --newspack-theme-font-line-height-body );
+	color: var( --newspack-theme-color-text-main );
 }
 
 p {
-	font-size: fonts.$font__size_base;
+	font-size: var( --newspack-theme-font-size-base );
 
 	&.has-background {
 		padding: 20px 30px;
@@ -42,15 +42,15 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 	font-weight: 700;
-	line-height: fonts.$font__line-height-heading;
+	line-height: var( --newspack-theme-font-line-height-heading );
 	a {
-		color: colors.$color__text-main;
+		color: var( --newspack-theme-color-text-main );
 		text-decoration: none;
 
 		&:visited {
-			color: colors.$color__text-main;
+			color: var( --newspack-theme-color-text-main );
 		}
 	}
 
@@ -60,18 +60,18 @@ h6 {
 }
 
 h1 {
-	font-size: fonts.$font__size-xl;
+	font-size: var( --newspack-theme-font-size-xl );
 
 	@include utilities.media( tablet ) {
-		font-size: fonts.$font__size-xxl;
+		font-size: var( --newspack-theme-font-size-xxl );
 	}
 }
 
 h2 {
-	font-size: fonts.$font__size-lg;
+	font-size: var( --newspack-theme-font-size-lg );
 
 	@include utilities.media( tablet ) {
-		font-size: fonts.$font__size-xl;
+		font-size: var( --newspack-theme-font-size-xl );
 	}
 }
 
@@ -79,30 +79,30 @@ h3 {
 	font-size: calc( 1em * 1.3 );
 
 	@include utilities.media( tablet ) {
-		font-size: fonts.$font__size-lg;
+		font-size: var( --newspack-theme-font-size-lg );
 	}
 }
 
 h4 {
-	font-size: fonts.$font__size-md;
+	font-size: var( --newspack-theme-font-size-md );
 }
 
 h5 {
-	font-size: fonts.$font__size-sm;
+	font-size: var( --newspack-theme-font-size-sm );
 }
 
 h6 {
-	font-size: fonts.$font__size-xs;
+	font-size: var( --newspack-theme-font-size-xs );
 }
 
 a {
 	@include utilities.link-transition;
 
-	color: colors.$color__link;
+	color: var( --newspack-theme-color-link );
 
 	&:hover,
 	&:active {
-		color: colors.$color__link-hover;
+		color: var( --newspack-theme-color-link );
 		outline: 0;
 		text-decoration: none;
 	}
@@ -123,18 +123,18 @@ a {
 
 table td,
 table th {
-	font-family: fonts.$font__body;
-	font-size: fonts.$font__size-sm;
+	font-family: var( --newspack-theme-font-body );
+	font-size: var( --newspack-theme-font-size-sm );
 }
 
 figcaption,
 .gallery-caption,
 .wp-caption-text,
 .swiper-pagination-simple {
-	color: colors.$color__text-light;
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size-xxs;
-	line-height: fonts.$font__line-height-pre;
+	color: var( --newspack-theme-color-text-light );
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-xxs );
+	line-height: var( --newspack-theme-font-line-height-body );
 	margin: 0 auto #{0.5 * structure.$size__spacing-unit};
 	max-width: 810px;
 	padding-left: 0;
@@ -158,44 +158,44 @@ figcaption,
 
 .editor-post-title__block,
 h1.wp-block-post-title {
-	font-size: fonts.$font__size_base; // Set on the title so the font size variables math as expected.
+	font-size: var( --newspack-theme-font-size-base ); // Reset font size.
 }
 
 .editor-post-title__block .editor-post-title__input,
 h1.wp-block-post-title {
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size-xxl;
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-xxl );
 	font-weight: 700;
 	line-height: 1.2;
 
 	@include utilities.media( desktop ) {
-		font-size: fonts.$font__size-xxxl;
+		font-size: var( --newspack-theme-font-size-xxxl );
 	}
 }
 
 /** === Post Meta === */
 
 .entry-meta {
-	color: colors.$color__text-light;
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size_base;
+	color: var( --newspack-theme-color-text-light );
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-base );
 
 	a {
-		color: colors.$color__primary;
+		color: var( --newspack-theme-color-primary );
 		font-weight: bold;
 		text-decoration: none;
 	}
 }
 
 .cat-links {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 }
 
 /** === Default Appender === */
 
 .editor-default-block-appender .editor-default-block-appender__content {
-	font-family: fonts.$font__body;
-	font-size: fonts.$font__size_base;
+	font-family: var( --newspack-theme-font-body );
+	font-size: var( --newspack-theme-font-size-base );
 }
 
 /** === Heading === */
@@ -234,10 +234,10 @@ h1.wp-block-post-title {
 /** === Table === */
 
 .wp-block-table {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 	td,
 	th {
-		border-color: colors.$color__text-light;
+		border-color: var( --newspack-theme-color-text-light );
 	}
 }
 
@@ -429,12 +429,12 @@ div[data-align='full'] {
 .wp-block-button__link {
 	border-radius: 5px;
 	line-height: 1.8;
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size-sm;
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-sm );
 	font-weight: bold;
 
 	&:not( .has-background ) {
-		background: colors.$color__background-button;
+		background: var( --newspack-theme-color-secondary );
 	}
 
 	&:not( .has-text-color ) {
@@ -449,7 +449,7 @@ div[data-align='full'] {
 	}
 
 	&:not( .has-text-color ) {
-		color: colors.$color__background-button;
+		color: var( --newspack-theme-color-secondary );
 	}
 }
 
@@ -458,18 +458,18 @@ div[data-align='full'] {
 .wp-block-quote {
 	&:not( .is-large ):not( .is-style-large ) {
 		border-width: 2px;
-		border-color: colors.$color__link;
+		border-color: var( --newspack-theme-color-link );
 	}
 
 	&.is-large,
 	&.is-style-large {
-		margin-top: fonts.$font__size-xxl;
-		margin-bottom: fonts.$font__size-xxl;
+		margin-top: var( --newspack-theme-font-size-xxl );
+		margin-bottom: var( --newspack-theme-font-size-xxl );
 	}
 
 	&.is-large p,
 	&.is-style-large p {
-		font-size: fonts.$font__size-lg;
+		font-size: var( --newspack-theme-font-size-lg );
 		line-height: 1.3;
 		margin-bottom: 0.5em;
 		margin-top: 0.5em;
@@ -478,10 +478,10 @@ div[data-align='full'] {
 	cite,
 	footer,
 	.wp-block-quote__citation {
-		font-family: fonts.$font__heading;
-		font-size: fonts.$font__size-xs;
+		font-family: var( --newspack-theme-font-heading );
+		font-size: var( --newspack-theme-font-size-xs );
 		line-height: 1.6;
-		color: colors.$color__text-light;
+		color: var( --newspack-theme-color-text-light );
 	}
 
 	p {
@@ -513,10 +513,10 @@ div[data-align='full'] {
 
 	&.is-style-solid-color blockquote p,
 	p {
-		font-size: fonts.$font__size-md;
+		font-size: var( --newspack-theme-font-size-md );
 
 		@include utilities.media( tablet ) {
-			font-size: fonts.$font__size-lg;
+			font-size: var( --newspack-theme-font-size-lg );
 		}
 	}
 
@@ -532,8 +532,8 @@ div[data-align='full'] {
 	}
 
 	.wp-block-pullquote__citation {
-		font-family: fonts.$font__heading;
-		font-size: fonts.$font__size-xs;
+		font-family: var( --newspack-theme-font-heading );
+		font-size: var( --newspack-theme-font-size-xs );
 		line-height: 1.6;
 		text-transform: none;
 
@@ -570,7 +570,7 @@ div[data-align='full'] {
 		}
 
 		&:not( .has-background-color ) {
-			background-color: colors.$color__link;
+			background-color: var( --newspack-theme-color-link );
 		}
 	}
 
@@ -603,7 +603,7 @@ div[data-align='full'] {
 		font-size: 1rem;
 
 		@include utilities.media( tablet ) {
-			font-size: fonts.$font__size-md;
+			font-size: var( --newspack-theme-font-size-md );
 		}
 	}
 
@@ -623,15 +623,15 @@ div[data-align='full'] {
 /** === File === */
 
 .wp-block-file {
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size-sm;
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-sm );
 
 	.wp-block-file__textlink {
 		text-decoration: underline;
-		color: colors.$color__link;
+		color: var( --newspack-theme-color-link );
 
 		&:hover {
-			color: colors.$color__link-hover;
+			color: var( --newspack-theme-color-link );
 			text-decoration: none;
 		}
 	}
@@ -641,7 +641,7 @@ div[data-align='full'] {
 		line-height: 1.8;
 		font-size: inherit;
 		font-weight: bold;
-		background-color: colors.$color__link;
+		background-color: var( --newspack-theme-color-link );
 		border-radius: 5px;
 		padding: 10px 20px;
 	}
@@ -664,13 +664,13 @@ div[data-align='full'] {
 /** === Search === */
 
 .wp-block-search__button {
-	background: colors.$color__background-button;
+	background: var( --newspack-theme-color-secondary );
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
 	line-height: 1.8;
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size-sm;
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-sm );
 	font-weight: bold;
 	padding: ( 0.55 * structure.$size__spacing-unit ) structure.$size__spacing-unit !important; // !important to override style from Gutenberg.
 
@@ -686,14 +686,14 @@ div[data-align='full'] {
 
 .wp-block-search {
 	input {
-		border-color: colors.$color__border;
+		border-color: var( --newspack-theme-color-border );
 		border-radius: 0;
 		padding: 0.36rem 0.66rem;
 	}
 
 	&.wp-block-search__button-inside {
 		.wp-block-search__inside-wrapper {
-			border-color: colors.$color__border;
+			border-color: var( --newspack-theme-color-border );
 			padding: 0;
 
 			input {
@@ -717,7 +717,7 @@ div[data-align='full'] {
 			}
 
 			&:not( .has-text-color ) {
-				color: colors.$color__text-main;
+				color: var( --newspack-theme-color-text-main );
 			}
 		}
 	}
@@ -736,7 +736,7 @@ div[data-align='full'] {
 
 	&:not( .is-style-dots ) {
 		border: 0;
-		border-top: 1px solid colors.$color__border;
+		border-top: 1px solid var( --newspack-theme-color-border );
 	}
 
 	&:not( .is-style-wide ):not( .is-style-dots ) {
@@ -746,8 +746,8 @@ div[data-align='full'] {
 	}
 
 	&.is-style-dots::before {
-		color: colors.$color__text-light;
-		font-size: fonts.$font__size-lg;
+		color: var( --newspack-theme-color-text-light );
+		font-size: var( --newspack-theme-font-size-lg );
 		letter-spacing: calc( 2 * #{structure.$size__spacing-unit} );
 		padding-left: calc( 2 * #{structure.$size__spacing-unit} );
 	}
@@ -796,10 +796,12 @@ div[data-align='full'] {
 ul.wp-block-archives,
 .wp-block-categories {
 	li {
-		font-family: fonts.$font__heading;
-		font-size: calc( #{fonts.$font__size_base} * #{fonts.$font__size-ratio} );
+		font-family: var( --newspack-theme-font-heading );
+		font-size: calc(
+			var( --newspack-theme-font-size-base ) * var( --newspack-theme-font-size-ratio )
+		);
 		font-weight: bold;
-		line-height: fonts.$font__line-height-heading;
+		line-height: var( --newspack-theme-font-line-height-heading );
 	}
 }
 
@@ -819,15 +821,17 @@ ul.wp-block-archives,
 /** === Latest Posts === */
 .wp-block-latest-posts {
 	li > a {
-		font-family: fonts.$font__heading;
-		font-size: calc( #{fonts.$font__size_base} * #{fonts.$font__size-ratio} );
+		font-family: var( --newspack-theme-font-heading );
+		font-size: calc(
+			var( --newspack-theme-font-size-base ) * var( --newspack-theme-font-size-ratio )
+		);
 		font-weight: bold;
-		line-height: fonts.$font__line-height-heading;
+		line-height: var( --newspack-theme-font-line-height-heading );
 	}
 
 	time {
-		color: colors.$color__text-light;
-		font-family: fonts.$font__heading;
+		color: var( --newspack-theme-color-text-light );
+		font-family: var( --newspack-theme-font-heading );
 	}
 	.wp-block-latest-posts__post-excerpt {
 		font-size: 0.8em;
@@ -835,7 +839,7 @@ ul.wp-block-archives,
 
 	&.is-grid {
 		li {
-			border-top: 2px solid colors.$color__border;
+			border-top: 2px solid var( --newspack-theme-color-border );
 			padding-top: ( 1 * structure.$size__spacing-unit );
 			margin-bottom: ( 2 * structure.$size__spacing-unit );
 			a {
@@ -863,23 +867,23 @@ ul.wp-block-archives,
 	}
 
 	.wp-block-latest-comments__comment {
-		font-size: fonts.$font__size-sm;
-		line-height: fonts.$font__line-height-body;
+		font-size: var( --newspack-theme-font-size-sm );
+		line-height: var( --newspack-theme-font-line-height-body );
 		margin-bottom: structure.$size__spacing-unit;
 	}
 
 	.wp-block-latest-comments__comment-meta {
-		font-family: fonts.$font__heading;
+		font-family: var( --newspack-theme-font-heading );
 		font-weight: bold;
 
 		a,
 		a:visited {
-			color: colors.$color__text-main;
+			color: var( --newspack-theme-color-text-main );
 			text-decoration: none;
 		}
 
 		.wp-block-latest-comments__comment-date {
-			color: colors.$color__text-light;
+			color: var( --newspack-theme-color-text-light );
 			font-size: 0.9em;
 			font-weight: normal;
 			margin: #{0.5 * structure.$size__spacing-unit} 0;
@@ -897,20 +901,20 @@ ul.wp-block-archives,
 // Related Posts
 .jp-relatedposts-i2 {
 	a {
-		color: colors.$color__text-main;
+		color: var( --newspack-theme-color-text-main );
 	}
 	a,
 	strong {
-		font-family: fonts.$font__heading;
-		font-size: fonts.$font__size-base;
+		font-family: var( --newspack-theme-font-heading );
+		font-size: var( --newspack-theme-font-size-base );
 		font-weight: bold;
 		text-decoration: none;
 	}
 
 	.jp-related-posts-i2__post-date,
 	.jp-related-posts-i2__post-context {
-		font-family: fonts.$font__heading;
-		font-size: fonts.$font__size-xs;
+		font-family: var( --newspack-theme-font-heading );
+		font-size: var( --newspack-theme-font-size-xs );
 	}
 }
 
@@ -919,8 +923,8 @@ ul.wp-block-archives,
 .wp-block-post-date,
 .wp-block-post-terms,
 .wp-block-query-pagination {
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size-sm;
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-sm );
 }
 
 // Pagination
@@ -956,7 +960,7 @@ ul.wp-block-archives,
 	}
 
 	.current {
-		background-color: colors.$color__text-light;
+		background-color: var( --newspack-theme-color-text-light );
 		color: #fff;
 	}
 
@@ -974,7 +978,7 @@ ul.wp-block-archives,
 // Mailchimp
 .wp-block-jetpack-mailchimp {
 	.block-editor-rich-text__editable {
-		font-size: fonts.$font__size-sm;
+		font-size: var( --newspack-theme-font-size-sm );
 	}
 
 	.newspack-pattern.subscribe__style-5 & {
@@ -986,11 +990,11 @@ ul.wp-block-archives,
 
 /** === Login/out block === */
 .wp-block-loginout {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 
 	label,
 	a {
-		font-size: fonts.$font__size-sm;
+		font-size: var( --newspack-theme-font-size-sm );
 	}
 }
 
@@ -1029,14 +1033,14 @@ ul.wp-block-archives,
 		width: 100%;
 
 		h5 {
-			color: colors.$color__text-light;
+			color: var( --newspack-theme-color-text-light );
 		}
 	}
 
 	.organic-profile-social {
 		.social-link {
 			border: 0;
-			color: colors.$color__text-light;
+			color: var( --newspack-theme-color-text-light );
 			cursor: default;
 			display: inline-block;
 			font-size: 16px;
@@ -1287,12 +1291,12 @@ ul.wp-block-archives,
 .wpbnbd .freq-label,
 .wpbnbd .tier-label,
 .wpbnbd button {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 }
 
 /** === Reader Registration Block === */
 .newspack-registration button {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 }
 
 /** === Ad Unit Block === */
@@ -1309,7 +1313,7 @@ ul.wp-block-archives,
 .wpnbpc .featured-listing[class*='type-newspack_lst_'] .entry-title a,
 .newspack-listings__curated-list .featured-listing .newspack-listings__listing-title {
 	&::before {
-		border: calc( 0.25em + 1px ) solid colors.$color__primary; // half the width
+		border: calc( 0.25em + 1px ) solid var( --newspack-theme-color-primary ); // half the width
 		border-top: 0;
 		border-bottom-color: transparent; // the 'cut in'
 		box-sizing: border-box;
@@ -1328,10 +1332,10 @@ ul.wp-block-archives,
 /* Properly center-align captions in the classic-editor block */
 .wp-caption {
 	dd {
-		color: colors.$color__text-light;
-		font-family: fonts.$font__heading;
-		font-size: fonts.$font__size-xs;
-		line-height: fonts.$font__line-height-pre;
+		color: var( --newspack-theme-color-text-light );
+		font-family: var( --newspack-theme-font-heading );
+		font-size: var( --newspack-theme-font-size-xs );
+		line-height: var( --newspack-theme-font-line-height-body );
 		margin: 0;
 		padding: ( structure.$size__spacing-unit * 0.5 );
 		text-align: center;
@@ -1343,14 +1347,14 @@ ul.wp-block-archives,
 .wp-block-freeform {
 	/* Add style for galleries in classic-editor block */
 	blockquote {
-		border-left: 2px solid colors.$color__link;
+		border-left: 2px solid var( --newspack-theme-color-link );
 
 		cite {
-			font-family: fonts.$font__heading;
-			font-size: fonts.$font__size-xs;
+			font-family: var( --newspack-theme-font-heading );
+			font-size: var( --newspack-theme-font-size-xs );
 			font-style: normal;
 			line-height: 1.6;
-			color: colors.$color__text-light;
+			color: var( --newspack-theme-color-text-light );
 		}
 	}
 }
@@ -1371,25 +1375,25 @@ ul.wp-block-archives,
 .has-primary-background-color,
 .is-style-outline .wp-block-button__link.has-primary-background-color, // legacy selector
 .wp-block-button__link.is-style-outline.has-primary-background-color {
-	background-color: colors.$color__primary;
+	background-color: var( --newspack-theme-color-primary );
 }
 
 .has-primary-variation-background-color,
 .is-style-outline .wp-block-button__link.has-primary-variation-background-color, // legacy selector
 .wp-block-button__link.is-style-outline.has-primary-variation-background-color {
-	background-color: colors.$color__primary-variation;
+	background-color: var( --newspack-theme-color-primary-variation );
 }
 
 .has-secondary-background-color,
 .is-style-outline .wp-block-button__link.has-secondary-background-color, // legacy selector
 .wp-block-button__link.is-style-outline.has-secondary-background-color {
-	background-color: colors.$color__secondary;
+	background-color: var( --newspack-theme-color-secondary );
 }
 
 .has-secondary-variation-background-color,
 .is-style-outline .wp-block-button__link.has-secondary-variation-background-color, // legacy selector
 .wp-block-button__link.is-style-outline.has-secondary-variation-background-color {
-	background-color: colors.$color__secondary-variation;
+	background-color: var( --newspack-theme-color-secondary-variation );
 }
 
 .has-dark-gray-background-color,
@@ -1419,25 +1423,25 @@ ul.wp-block-archives,
 .has-primary-color,
 .is-style-outline .wp-block-button__link.has-primary-color, //legacy selector
 .wp-block-button__link.is-style-outline.has-primary-color {
-	color: colors.$color__primary;
+	color: var( --newspack-theme-color-primary );
 }
 
 .has-primary-variation-color,
 .is-style-outline .wp-block-button__link.has-primary-variation-color, //legacy selector
 .wp-block-button__link.is-style-outline.has-primary-variation-color {
-	color: colors.$color__primary-variation;
+	color: var( --newspack-theme-color-primary-variation );
 }
 
 .has-secondary-color,
 .is-style-outline .wp-block-button__link.has-secondary-color, //legacy selector
 .wp-block-button__link.is-style-outline.has-secondary-color {
-	color: colors.$color__secondary;
+	color: var( --newspack-theme-color-secondary );
 }
 
 .has-secondary-variation-color,
 .is-style-outline .wp-block-button__link.has-secondary-variation-color, //legacy selector
 .wp-block-button__link.is-style-outline.has-secondary-variation-color {
-	color: colors.$color__secondary-variation;
+	color: var( --newspack-theme-color-secondary-variation );
 }
 
 .has-dark-gray-color,
@@ -1468,16 +1472,16 @@ ul.wp-block-archives,
 .has-grad-1-gradient-background {
 	background-image: linear-gradient(
 		135deg,
-		colors.$color__primary 0%,
-		colors.$color__primary-variation 100%
+		var( --newspack-theme-color-primary ) 0%,
+		var( --newspack-theme-color-primary-variation ) 100%
 	);
 }
 
 .has-grad-2-gradient-background {
 	background-image: linear-gradient(
 		135deg,
-		colors.$color__secondary 0%,
-		colors.$color__secondary-variation 100%
+		var( --newspack-theme-color-secondary ) 0%,
+		var( --newspack-theme-color-secondary-variation ) 100%
 	);
 }
 .has-grad-3-gradient-background {

@@ -1,3 +1,67 @@
+## [1.70.1](https://github.com/Automattic/newspack-theme/compare/v1.70.0...v1.70.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* bump a new version tag ([c55cf05](https://github.com/Automattic/newspack-theme/commit/c55cf05e8a239818d31761685ee1729c86bd55aa))
+
+# [1.70.0](https://github.com/Automattic/newspack-theme/compare/v1.69.5...v1.70.0) (2023-04-24)
+
+
+### Bug Fixes
+
+* allow woo required field asterisk toggle ([#2089](https://github.com/Automattic/newspack-theme/issues/2089)) ([a662e2a](https://github.com/Automattic/newspack-theme/commit/a662e2ac3b1ab1063a15aa8cb29de03422c52763))
+* remove post author, comments blocks from displayed list ([#2083](https://github.com/Automattic/newspack-theme/issues/2083)) ([243c345](https://github.com/Automattic/newspack-theme/commit/243c34500c2a9a1e71eb6d48c905d279950bf44a))
+* update hooks and add pre push ([#2082](https://github.com/Automattic/newspack-theme/issues/2082)) ([55f8978](https://github.com/Automattic/newspack-theme/commit/55f8978a7f956c0e4b0b2abf56ca321769774542))
+
+
+### Features
+
+* add multi-branded site support ([#2077](https://github.com/Automattic/newspack-theme/issues/2077)) ([0229917](https://github.com/Automattic/newspack-theme/commit/0229917d8088fbe9d5eba0ba3840587bf4459c26))
+
+# [1.70.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.70.0-alpha.1...v1.70.0-alpha.2) (2023-04-14)
+
+
+### Bug Fixes
+
+* allow woo required field asterisk toggle ([#2089](https://github.com/Automattic/newspack-theme/issues/2089)) ([a662e2a](https://github.com/Automattic/newspack-theme/commit/a662e2ac3b1ab1063a15aa8cb29de03422c52763))
+
+# [1.70.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.69.5...v1.70.0-alpha.1) (2023-04-13)
+
+
+### Bug Fixes
+
+* remove post author, comments blocks from displayed list ([#2083](https://github.com/Automattic/newspack-theme/issues/2083)) ([243c345](https://github.com/Automattic/newspack-theme/commit/243c34500c2a9a1e71eb6d48c905d279950bf44a))
+* update hooks and add pre push ([#2082](https://github.com/Automattic/newspack-theme/issues/2082)) ([55f8978](https://github.com/Automattic/newspack-theme/commit/55f8978a7f956c0e4b0b2abf56ca321769774542))
+
+
+### Features
+
+* add multi-branded site support ([#2077](https://github.com/Automattic/newspack-theme/issues/2077)) ([0229917](https://github.com/Automattic/newspack-theme/commit/0229917d8088fbe9d5eba0ba3840587bf4459c26))
+
+## [1.69.5](https://github.com/Automattic/newspack-theme/compare/v1.69.4...v1.69.5) (2023-04-11)
+
+
+### Bug Fixes
+
+* remove amp plus handling for ads ([#2088](https://github.com/Automattic/newspack-theme/issues/2088)) ([50a2bee](https://github.com/Automattic/newspack-theme/commit/50a2beeb60a78899f6de2d6862ea5db4922501a8))
+
+## [1.69.4](https://github.com/Automattic/newspack-theme/compare/v1.69.3...v1.69.4) (2023-04-10)
+
+
+### Bug Fixes
+
+* display underwriters with default placement value ([#2061](https://github.com/Automattic/newspack-theme/issues/2061)) ([265c049](https://github.com/Automattic/newspack-theme/commit/265c049d0e678f55f16f7f77791d56221a02b91b))
+* make sure wide blocks don't overflow containers ([#2063](https://github.com/Automattic/newspack-theme/issues/2063)) ([5fea5cf](https://github.com/Automattic/newspack-theme/commit/5fea5cf7b4f3c02645792c5874c3ed1e5fe00238))
+
+## [1.69.4-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.69.3...v1.69.4-alpha.1) (2023-03-31)
+
+
+### Bug Fixes
+
+* display underwriters with default placement value ([#2061](https://github.com/Automattic/newspack-theme/issues/2061)) ([265c049](https://github.com/Automattic/newspack-theme/commit/265c049d0e678f55f16f7f77791d56221a02b91b))
+* make sure wide blocks don't overflow containers ([#2063](https://github.com/Automattic/newspack-theme/issues/2063)) ([5fea5cf](https://github.com/Automattic/newspack-theme/commit/5fea5cf7b4f3c02645792c5874c3ed1e5fe00238))
+
 ## [1.69.3](https://github.com/Automattic/newspack-theme/compare/v1.69.2...v1.69.3) (2023-03-27)
 
 

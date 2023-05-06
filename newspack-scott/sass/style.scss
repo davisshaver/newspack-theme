@@ -2,9 +2,7 @@
 @use 'variables-style/variables-style';
 @use '../../newspack-theme/sass/style-base';
 @use '../../newspack-theme/sass/mixins/utilities';
-@use '../../newspack-theme/sass/variables-site/colors';
 @use '../../newspack-theme/sass/variables-site/structure';
-@use '../../newspack-theme/sass/variables-site/fonts';
 
 /* Child theme-specific overrides */
 
@@ -13,10 +11,10 @@
 .cat-links,
 .page-title {
 	color: #666;
-	font-size: fonts.$font__size-sm;
+	font-size: var( --newspack-theme-font-size-sm );
 
 	&::before {
-		background-color: colors.$color__primary;
+		background-color: var( --newspack-theme-color-primary );
 		content: '';
 		display: inline-block;
 		height: 0.75em;
@@ -37,13 +35,13 @@ div.wpnbha .article-section-title {
 }
 
 .cat-links {
-	font-family: fonts.$font__heading;
-	font-size: fonts.$font__size-sm;
+	font-family: var( --newspack-theme-font-heading );
+	font-size: var( --newspack-theme-font-size-sm );
 }
 
 #secondary .widget-title,
 #secondary .widgettitle {
-	font-size: fonts.$font__size-lg;
+	font-size: var( --newspack-theme-font-size-lg );
 }
 
 /* Posts & Pages */
@@ -51,7 +49,7 @@ div.wpnbha .article-section-title {
 @include utilities.media( tablet ) {
 	.featured-image-beside {
 		.cat-links::before {
-			background-color: colors.$color__background-body;
+			background-color: var( --newspack-theme-color-bg-body );
 		}
 	}
 }
@@ -67,17 +65,17 @@ div.wpnbha .article-section-title {
 .entry-meta .byline {
 	a,
 	a:visited {
-		color: colors.$color__text-light;
+		color: var( --newspack-theme-color-text-light );
 	}
 
 	a:hover {
-		color: colors.$color__text-main;
+		color: var( --newspack-theme-color-text-main );
 	}
 }
 
 .single {
 	.cat-links {
-		font-size: fonts.$font__size_base;
+		font-size: var( --newspack-theme-font-size-base );
 	}
 
 	@include utilities.media( tablet ) {
@@ -103,12 +101,12 @@ div.wpnbha .article-section-title {
 /* Author Bio */
 
 .author-bio .accent-header {
-	color: colors.$color__text-main;
-	font-size: fonts.$font__size-md;
+	color: var( --newspack-theme-color-text-main );
+	font-size: var( --newspack-theme-font-size-md );
 	margin: 0 0 #{0.25 * structure.$size__spacing-unit};
 
 	span {
-		font-size: fonts.$font__size-xs;
+		font-size: var( --newspack-theme-font-size-xs );
 	}
 
 	&::before {
@@ -120,14 +118,14 @@ div.wpnbha .article-section-title {
 
 //! Paragraph
 .has-drop-cap:not( :focus )::first-letter {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 	font-weight: bold;
 }
 
 //! Pullquote
 .wp-block-pullquote {
 	border-width: 0;
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 	font-weight: bold;
 	padding-top: #{4 * structure.$size__spacing-unit};
 	position: relative;
@@ -136,7 +134,7 @@ div.wpnbha .article-section-title {
 	&.is-style-solid-color blockquote p,
 	blockquote p {
 		@include utilities.media( tablet ) {
-			font-size: fonts.$font__size-xl;
+			font-size: var( --newspack-theme-font-size-xl );
 		}
 	}
 
@@ -144,13 +142,13 @@ div.wpnbha .article-section-title {
 	&.has-text-align-left:not( .alignleft ):not( .alignright ) {
 		@include utilities.media( tablet ) {
 			p {
-				font-size: fonts.$font__size-xl;
+				font-size: var( --newspack-theme-font-size-xl );
 			}
 		}
 	}
 
 	blockquote {
-		border-color: inherit;
+		border-color: var( --newspack-theme-color-primary );
 
 		&::before,
 		&::after {
@@ -174,7 +172,7 @@ div.wpnbha .article-section-title {
 		}
 
 		p:first-of-type::before {
-			color: colors.$color__primary;
+			color: var( --newspack-theme-color-primary );
 			content: '\201C';
 			display: inline-block;
 			font-size: calc( 1rem * 5 );
@@ -191,6 +189,10 @@ div.wpnbha .article-section-title {
 				font-size: calc( 1rem * 7 );
 			}
 		}
+	}
+
+	&.has-border-color blockquote {
+		border-color: inherit;
 	}
 
 	&.is-style-solid-color,
@@ -220,7 +222,7 @@ div.wpnbha .article-section-title {
 	}
 
 	cite {
-		font-size: fonts.$font__size-sm;
+		font-size: var( --newspack-theme-font-size-sm );
 		font-weight: normal;
 		text-transform: uppercase;
 	}
@@ -312,7 +314,7 @@ div.wpnbha .article-section-title {
 
 		&.is-style-solid-color blockquote p,
 		blockquote p {
-			font-size: fonts.$font__size-md;
+			font-size: var( --newspack-theme-font-size-md );
 		}
 
 		&,
@@ -365,7 +367,7 @@ div.wpnbha .article-section-title {
 
 // Archive
 .archive .page-title {
-	color: colors.$color__text-light;
+	color: var( --newspack-theme-color-text-light );
 }
 
 // Widgets
@@ -382,12 +384,12 @@ div.wpnbha .article-section-title {
 #colophon {
 	&,
 	.social-navigation a {
-		color: colors.$color__text-main;
+		color: var( --newspack-theme-color-text-main );
 	}
 
 	.widget-title {
-		color: colors.$color__text-main;
-		font-size: fonts.$font__size_base;
+		color: var( --newspack-theme-color-text-main );
+		font-size: var( --newspack-theme-font-size-base );
 	}
 }
 
@@ -406,7 +408,7 @@ div.wpnbha .article-section-title {
 // If custom font is set, `#colophon .site-info` selector would override it
 // (See issue #663)
 .site-info {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 }
 
 /* Yoast Breadcrumbs */
@@ -414,7 +416,7 @@ div.wpnbha .article-section-title {
 .site-breadcrumb {
 	.wrapper {
 		> span::before {
-			background-color: colors.$color__primary;
+			background-color: var( --newspack-theme-color-primary );
 			content: '';
 			display: inline-block;
 			height: 0.75em;
@@ -433,7 +435,7 @@ div.wpnbha .article-section-title {
 
 // Sponsored Content
 .single .sponsor-label {
-	font-size: fonts.$font__size-sm;
+	font-size: var( --newspack-theme-font-size-sm );
 
 	+ .cat-links {
 		font-size: 0.9rem;

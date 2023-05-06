@@ -7,8 +7,6 @@ Newspack Sacha Editor Styles
 @use 'variables-style/variables-style';
 @use '../../newspack-theme/sass/style-editor-base';
 @use '../../newspack-theme/sass/mixins/utilities';
-@use '../../newspack-theme/sass/variables-site/colors';
-@use '../../newspack-theme/sass/variables-site/fonts';
 @use '../../newspack-theme/sass/variables-site/structure';
 
 .editor-post-title__block .editor-post-title__input,
@@ -20,9 +18,9 @@ h1.wp-block-post-title,
 .accent-header,
 .article-section-title {
 	align-items: center;
-	color: colors.$color__primary;
+	color: var( --newspack-theme-color-primary );
 	display: flex;
-	font-size: fonts.$font__size-xs;
+	font-size: var( --newspack-theme-font-size-xs );
 	margin-bottom: #{1.5 * structure.$size__spacing-unit};
 	overflow: hidden;
 	text-align: center;
@@ -30,7 +28,7 @@ h1.wp-block-post-title,
 
 	&::before,
 	&::after {
-		background: colors.$color__border;
+		background: var( --newspack-theme-color-border );
 		content: '';
 		flex: 1 0 0.5rem;
 		height: 1px;
@@ -47,11 +45,11 @@ h1.wp-block-post-title,
 }
 
 .has-drop-cap:not( :focus )::first-letter {
-	background-color: colors.$color__primary;
+	background-color: var( --newspack-theme-color-primary );
 	color: #fff;
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 	font-weight: bold;
-	font-size: fonts.$font__size-xxl;
+	font-size: var( --newspack-theme-font-size-xxl );
 	padding: 0.4em;
 }
 
@@ -62,7 +60,7 @@ figcaption,
 
 blockquote,
 cite {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 
 	em,
 	i {
@@ -81,19 +79,19 @@ cite {
 
 	&.is-style-solid-color blockquote p,
 	blockquote p {
-		font-size: fonts.$font__size-lg;
+		font-size: var( --newspack-theme-font-size-lg );
 
 		@include utilities.media( tablet ) {
-			font-size: fonts.$font__size-xl;
+			font-size: var( --newspack-theme-font-size-xl );
 		}
 	}
 
 	p {
-		font-family: fonts.$font__heading;
+		font-family: var( --newspack-theme-font-heading );
 	}
 
 	.wp-block-pullquote__citation {
-		font-family: fonts.$font__heading;
+		font-family: var( --newspack-theme-font-heading );
 		font-style: italic;
 
 		em,
@@ -112,7 +110,7 @@ cite {
 	@include utilities.media( tablet ) {
 		&.is-style-solid-color blockquote p,
 		blockquote p {
-			font-size: fonts.$font__size-lg;
+			font-size: var( --newspack-theme-font-size-lg );
 		}
 	}
 }

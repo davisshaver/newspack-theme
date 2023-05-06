@@ -1,16 +1,13 @@
 @use 'theme-description';
-@use 'sass:color';
 @use 'variables-style/variables-style';
 @use '../../newspack-theme/sass/style-base';
 @use '../../newspack-theme/sass/mixins/utilities';
-@use '../../newspack-theme/sass/variables-site/colors';
-@use '../../newspack-theme/sass/variables-site/fonts';
 @use '../../newspack-theme/sass/variables-site/structure';
 
 // Header Overlap
 // Header - Solid background
 .h-sb .site-header {
-	background-color: colors.$color__primary;
+	background-color: var( --newspack-theme-color-primary );
 }
 
 .site-header,
@@ -81,7 +78,7 @@ body:not( .h-stk ).single-featured-image-above {
 
 // Header
 .site-header {
-	border-bottom: 2px solid colors.$color__primary-variation;
+	border-bottom: 2px solid var( --newspack-theme-color-primary-variation );
 	@include utilities.media( tablet ) {
 		border-bottom-width: 0;
 	}
@@ -172,11 +169,11 @@ body:not( .h-sb ) .site-header {
 // Content Area
 
 #primary {
-	background-color: colors.$color__background-body;
+	background-color: var( --newspack-theme-color-bg-body );
 	padding: structure.$size__spacing-unit 0;
 
 	@include utilities.media( tablet ) {
-		border-top: 4px solid colors.$color__primary-variation;
+		border-top: 4px solid var( --newspack-theme-color-primary-variation );
 		padding: #{3 * structure.$size__spacing-unit} #{2 * structure.$size__spacing-unit} 0;
 	}
 
@@ -254,8 +251,8 @@ h4,
 #secondary .widgettitle,
 div.wpnbha .article-section-title,
 .cat-links {
-	color: colors.$color__text-light;
-	font-size: fonts.$font__size-xs;
+	color: var( --newspack-theme-color-text-light );
+	font-size: var( --newspack-theme-font-size-xs );
 	font-weight: bold;
 }
 
@@ -285,10 +282,10 @@ div.wpnbha.is-grid .article-section-title {
 #secondary .widget-title,
 #secondary .widgettitle {
 	color: inherit;
-	font-size: fonts.$font__size-lg;
+	font-size: var( --newspack-theme-font-size-lg );
 
 	@include utilities.media( tablet ) {
-		font-size: fonts.$font__size-xl;
+		font-size: var( --newspack-theme-font-size-xl );
 	}
 }
 
@@ -299,12 +296,12 @@ div.wpnbha.is-grid .article-section-title {
 	a:visited,
 	.byline a,
 	.byline a:visited {
-		color: colors.$color__text-light;
+		color: var( --newspack-theme-color-text-light );
 	}
 
 	a:hover,
 	.byline a:hover {
-		color: colors.$color__text-main;
+		color: var( --newspack-theme-color-text-main );
 	}
 }
 
@@ -319,7 +316,7 @@ div.wpnbha.is-grid .article-section-title {
 
 	&:not( .has-featured-image ) .entry-header,
 	.has-large-featured-image .entry-header {
-		border-bottom: 2px solid colors.$color__text-main;
+		border-bottom: 2px solid var( --newspack-theme-color-text-main );
 
 		@include utilities.media( tablet ) {
 			margin-bottom: structure.$size__spacing-unit;
@@ -327,24 +324,24 @@ div.wpnbha.is-grid .article-section-title {
 	}
 
 	.entry-meta {
-		font-size: fonts.$font__size-xs;
+		font-size: var( --newspack-theme-font-size-xs );
 	}
 }
 
 .entry .entry-footer,
 .entry .entry-footer a,
 .entry .entry-footer a:hover {
-	color: colors.$color__text-main;
+	color: var( --newspack-theme-color-text-main );
 }
 
 .tags-links {
 	a {
-		background: colors.$color__background-pre;
+		background: var( --newspack-theme-color-bg-pre );
 		margin: 0 #{0.25 * structure.$size__spacing-unit} #{0.25 * structure.$size__spacing-unit} 0;
 		padding: #{0.25 * structure.$size__spacing-unit} #{0.5 * structure.$size__spacing-unit};
 
 		&:hover {
-			background: color.adjust( colors.$color__background-pre, $lightness: 5% );
+			background: var( --newspack-theme-color-bg-pre-lighten-5 );
 		}
 	}
 
@@ -354,20 +351,20 @@ div.wpnbha.is-grid .article-section-title {
 }
 
 .post-navigation {
-	border-color: colors.$color__text-main;
+	border-color: var( --newspack-theme-color-text-main );
 	border-top-width: 4px;
 }
 
 // Blocks
 
 blockquote {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 }
 
 //! Paragraph
 .has-drop-cap:not( :focus )::first-letter {
-	color: colors.$color__secondary;
-	font-family: fonts.$font__heading;
+	color: var( --newspack-theme-color-secondary );
+	font-family: var( --newspack-theme-font-heading );
 	font-weight: 800;
 }
 
@@ -379,7 +376,7 @@ blockquote {
 //! Newspack Article Block
 .wpnbha {
 	article .entry-meta {
-		font-size: #{0.7 * fonts.$font__size_base};
+		font-size: calc( 0.7 * var( --newspack-theme-font-size-base ) );
 	}
 
 	&.type-scale1,
@@ -387,7 +384,7 @@ blockquote {
 	&.type-scale3,
 	&.type-scale4 {
 		article .entry-meta {
-			font-size: #{0.6 * fonts.$font__size_base};
+			font-size: calc( 0.6 * var( --newspack-theme-font-size-base ) );
 		}
 	}
 }
@@ -400,7 +397,7 @@ blockquote {
 	blockquote p,
 	&.is-style-solid-color blockquote p {
 		@include utilities.media( tablet ) {
-			font-size: fonts.$font__size-xl;
+			font-size: var( --newspack-theme-font-size-xl );
 		}
 	}
 
@@ -408,7 +405,7 @@ blockquote {
 	&.has-text-align-left:not( .alignleft ):not( .alignright ) {
 		@include utilities.media( tablet ) {
 			p {
-				font-size: fonts.$font__size-xl;
+				font-size: var( --newspack-theme-font-size-xl );
 			}
 		}
 	}
@@ -424,7 +421,7 @@ blockquote {
 			}
 
 			@include utilities.media( tablet ) {
-				font-size: fonts.$font__size-xl;
+				font-size: var( --newspack-theme-font-size-xl );
 			}
 		}
 	}
@@ -449,7 +446,7 @@ blockquote {
 		@include utilities.media( tablet ) {
 			blockquote p,
 			&.is-style-solid-color blockquote p {
-				font-size: fonts.$font__size-lg;
+				font-size: var( --newspack-theme-font-size-lg );
 			}
 		}
 
@@ -470,14 +467,14 @@ blockquote {
 }
 
 .wp-block-separator {
-	border-top: 2px solid colors.$color__text-main;
+	border-top: 2px solid var( --newspack-theme-color-text-main );
 
 	&.has-background {
 		border-top: 2px solid currentcolor;
 	}
 
 	&:not( .is-style-dots ):not( .is-style-wide ) {
-		border-top: 5px solid colors.$color__text-main;
+		border-top: 5px solid var( --newspack-theme-color-text-main );
 		height: 0;
 
 		&.has-background {
@@ -490,7 +487,7 @@ blockquote {
 		border: 0;
 
 		&::before {
-			color: colors.$color__text-main;
+			color: var( --newspack-theme-color-text-main );
 		}
 	}
 }
@@ -498,7 +495,7 @@ blockquote {
 // Author Bio
 
 .author-bio {
-	border-top: 8px solid colors.$color__text-main;
+	border-top: 8px solid var( --newspack-theme-color-text-main );
 	padding-top: #{1.5 * structure.$size__spacing-unit};
 
 	@include utilities.media( tablet ) {
@@ -507,20 +504,20 @@ blockquote {
 
 	h2 {
 		color: inherit;
-		font-size: fonts.$font__size-md;
+		font-size: var( --newspack-theme-font-size-md );
 		font-weight: 800;
 		letter-spacing: 0;
 		margin: 0 0 #{0.5 * structure.$size__spacing-unit};
 		text-transform: none;
 
 		span {
-			color: colors.$color__text-light;
-			font-size: fonts.$font__size-xs;
+			color: var( --newspack-theme-color-text-light );
+			font-size: var( --newspack-theme-font-size-xs );
 		}
 	}
 
 	.author-link {
-		color: colors.$color__text-main;
+		color: var( --newspack-theme-color-text-main );
 	}
 }
 
@@ -528,23 +525,23 @@ blockquote {
 
 .archive {
 	.page-header {
-		border-bottom: 2px solid colors.$color__text-main;
+		border-bottom: 2px solid var( --newspack-theme-color-text-main );
 		padding-bottom: #{2 * structure.$size__spacing-unit};
 	}
 
 	.page-title {
-		color: colors.$color__text-light;
-		font-size: fonts.$font__size-sm;
+		color: var( --newspack-theme-color-text-light );
+		font-size: var( --newspack-theme-font-size-sm );
 	}
 }
 
 .page-description {
-	font-size: fonts.$font__size-xxxxxl;
+	font-size: var( --newspack-theme-font-size-xxxxxl );
 	margin-top: structure.$size__spacing-unit;
 }
 
 .taxonomy-description {
-	font-family: fonts.$font__heading;
+	font-family: var( --newspack-theme-font-heading );
 	font-style: normal;
 }
 
@@ -561,8 +558,8 @@ blockquote {
 // Footer
 
 .site-footer {
-	background-color: colors.$color__primary;
-	color: colors.$color__background-body;
+	background-color: var( --newspack-theme-color-primary );
+	color: var( --newspack-theme-color-bg-body );
 
 	a,
 	a:hover,
@@ -589,8 +586,8 @@ blockquote {
 }
 
 .site-info {
-	background-color: colors.$color__text-main;
-	color: colors.$color__background-body;
+	background-color: var( --newspack-theme-color-text-main );
+	color: var( --newspack-theme-color-bg-body );
 
 	.site-info-contain:first-child,
 	.widget-area .wrapper {
@@ -636,7 +633,7 @@ blockquote {
 	}
 
 	.h-sb & {
-		color: colors.$color__background-body;
+		color: var( --newspack-theme-color-bg-body );
 
 		a,
 		.breadcrumb_last {
@@ -652,7 +649,7 @@ blockquote {
 
 	.has-highlight-menu & {
 		.wrapper {
-			border-top-color: colors.$color__primary-variation;
+			border-top-color: var( --newspack-theme-color-primary-variation );
 		}
 	}
 }
@@ -688,6 +685,6 @@ blockquote {
 .sponsors-show-authors {
 	div.sponsor-bio,
 	div.sponsor-bio + .sponsor-bio {
-		border-color: colors.$color__text-main;
+		border-color: var( --newspack-theme-color-text-main );
 	}
 }
