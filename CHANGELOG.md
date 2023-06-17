@@ -1,3 +1,82 @@
+# [1.73.0](https://github.com/Automattic/newspack-theme/compare/v1.72.0...v1.73.0) (2023-06-05)
+
+
+### Bug Fixes
+
+* remove unnecessary sponsor logo spacing ([#2120](https://github.com/Automattic/newspack-theme/issues/2120)) ([ad66f3f](https://github.com/Automattic/newspack-theme/commit/ad66f3f38975982f4ae4bb8b893d3735f69f1052))
+
+
+### Features
+
+* add links to the author bio ([#2114](https://github.com/Automattic/newspack-theme/issues/2114)) ([3cc0525](https://github.com/Automattic/newspack-theme/commit/3cc052515050e1d9a3958af40f54da1ecb3feae6))
+
+# [1.73.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.72.0...v1.73.0-alpha.1) (2023-05-25)
+
+
+### Bug Fixes
+
+* remove unnecessary sponsor logo spacing ([#2120](https://github.com/Automattic/newspack-theme/issues/2120)) ([ad66f3f](https://github.com/Automattic/newspack-theme/commit/ad66f3f38975982f4ae4bb8b893d3735f69f1052))
+
+
+### Features
+
+* add links to the author bio ([#2114](https://github.com/Automattic/newspack-theme/issues/2114)) ([3cc0525](https://github.com/Automattic/newspack-theme/commit/3cc052515050e1d9a3958af40f54da1ecb3feae6))
+
+# [1.72.0](https://github.com/Automattic/newspack-theme/compare/v1.71.1...v1.72.0) (2023-05-24)
+
+
+### Bug Fixes
+
+* prevent sponsor strings from overwriting theme script strings ([#2108](https://github.com/Automattic/newspack-theme/issues/2108)) ([5f70160](https://github.com/Automattic/newspack-theme/commit/5f701603482841bce8bce36568c75d660b1a7a0c))
+
+
+### Features
+
+* inform current colors to multi-branded plugi ([#2102](https://github.com/Automattic/newspack-theme/issues/2102)) ([7142f91](https://github.com/Automattic/newspack-theme/commit/7142f91c7177b11b02a807eb6c4cb206633404a8))
+
+# [1.72.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.71.1...v1.72.0-alpha.1) (2023-05-11)
+
+
+### Bug Fixes
+
+* prevent sponsor strings from overwriting theme script strings ([#2108](https://github.com/Automattic/newspack-theme/issues/2108)) ([5f70160](https://github.com/Automattic/newspack-theme/commit/5f701603482841bce8bce36568c75d660b1a7a0c))
+
+
+### Features
+
+* inform current colors to multi-branded plugi ([#2102](https://github.com/Automattic/newspack-theme/issues/2102)) ([7142f91](https://github.com/Automattic/newspack-theme/commit/7142f91c7177b11b02a807eb6c4cb206633404a8))
+
+## [1.71.1](https://github.com/Automattic/newspack-theme/compare/v1.71.0...v1.71.1) (2023-05-09)
+
+
+### Bug Fixes
+
+* bump release version ([fe8c6c5](https://github.com/Automattic/newspack-theme/commit/fe8c6c511d73f66f6d6191ab4b29abb20df8372d))
+
+# [1.71.0](https://github.com/Automattic/newspack-theme/compare/v1.70.1...v1.71.0) (2023-05-08)
+
+
+### Bug Fixes
+
+* correct the default color used for the highlight menu label ([#2093](https://github.com/Automattic/newspack-theme/issues/2093)) ([99c4031](https://github.com/Automattic/newspack-theme/commit/99c4031efccb5bdded4ece97392ae6c8d24efca1))
+
+
+### Features
+
+* add archive title for custom taxonomies ([#2101](https://github.com/Automattic/newspack-theme/issues/2101)) ([2dc5fbb](https://github.com/Automattic/newspack-theme/commit/2dc5fbb0e6d8aab91561d01eb1833d3b315c1d08))
+
+# [1.71.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.70.1...v1.71.0-alpha.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* correct the default color used for the highlight menu label ([#2093](https://github.com/Automattic/newspack-theme/issues/2093)) ([99c4031](https://github.com/Automattic/newspack-theme/commit/99c4031efccb5bdded4ece97392ae6c8d24efca1))
+
+
+### Features
+
+* add archive title for custom taxonomies ([#2101](https://github.com/Automattic/newspack-theme/issues/2101)) ([2dc5fbb](https://github.com/Automattic/newspack-theme/commit/2dc5fbb0e6d8aab91561d01eb1833d3b315c1d08))
+
 ## [1.70.1](https://github.com/Automattic/newspack-theme/compare/v1.70.0...v1.70.1) (2023-04-24)
 
 
