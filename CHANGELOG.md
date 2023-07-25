@@ -1,3 +1,101 @@
+## [1.75.1](https://github.com/Automattic/newspack-theme/compare/v1.75.0...v1.75.1) (2023-07-17)
+
+
+### Bug Fixes
+
+* add clamp to higher spacing values ([#2157](https://github.com/Automattic/newspack-theme/issues/2157)) ([68e18e5](https://github.com/Automattic/newspack-theme/commit/68e18e508fe89b20f0267f7872e68ce26449f0ab))
+* reorder author bio truncation order ([#2156](https://github.com/Automattic/newspack-theme/issues/2156)) ([64504c0](https://github.com/Automattic/newspack-theme/commit/64504c0a8f6c8e55a00fc6e6742920163a50dbf1))
+* **woocommerce:** account page grid on member area ([#2150](https://github.com/Automattic/newspack-theme/issues/2150)) ([b0e6409](https://github.com/Automattic/newspack-theme/commit/b0e64099d39eba24c27f2160c400528fd9c86a7e))
+
+## [1.75.1-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.75.1-alpha.1...v1.75.1-alpha.2) (2023-07-12)
+
+
+### Bug Fixes
+
+* add clamp to higher spacing values ([#2157](https://github.com/Automattic/newspack-theme/issues/2157)) ([68e18e5](https://github.com/Automattic/newspack-theme/commit/68e18e508fe89b20f0267f7872e68ce26449f0ab))
+* reorder author bio truncation order ([#2156](https://github.com/Automattic/newspack-theme/issues/2156)) ([64504c0](https://github.com/Automattic/newspack-theme/commit/64504c0a8f6c8e55a00fc6e6742920163a50dbf1))
+
+## [1.75.1-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.75.0...v1.75.1-alpha.1) (2023-07-07)
+
+
+### Bug Fixes
+
+* **woocommerce:** account page grid on member area ([#2150](https://github.com/Automattic/newspack-theme/issues/2150)) ([b0e6409](https://github.com/Automattic/newspack-theme/commit/b0e64099d39eba24c27f2160c400528fd9c86a7e))
+
+# [1.75.0](https://github.com/Automattic/newspack-theme/compare/v1.74.0...v1.75.0) (2023-07-03)
+
+
+### Bug Fixes
+
+* add default for the archive image cropping ([#2151](https://github.com/Automattic/newspack-theme/issues/2151)) ([279d66e](https://github.com/Automattic/newspack-theme/commit/279d66e8a579fadf3600eb3facc6b7ffbf6e5417))
+* correct sidebar link colour ([#2131](https://github.com/Automattic/newspack-theme/issues/2131)) ([a3ff141](https://github.com/Automattic/newspack-theme/commit/a3ff141db636396eb44376417889348cfc9f28f2))
+* correct sponsor logo size ([#2130](https://github.com/Automattic/newspack-theme/issues/2130)) ([6baab49](https://github.com/Automattic/newspack-theme/commit/6baab494007b601321c01741e3834db878bdd401))
+
+
+### Features
+
+* add option to disable archive image cropping ([#2145](https://github.com/Automattic/newspack-theme/issues/2145)) ([82cac47](https://github.com/Automattic/newspack-theme/commit/82cac47f26f1b274b32b5b1ef83e8d69dc82645b))
+* hide/unset alternative logos when multibranded is enabled ([#2132](https://github.com/Automattic/newspack-theme/issues/2132)) ([575d7f9](https://github.com/Automattic/newspack-theme/commit/575d7f901274719d92fdc9f4034003bfff0b5827))
+* improve mobile styles for related posts ([#2129](https://github.com/Automattic/newspack-theme/issues/2129)) ([b5e6476](https://github.com/Automattic/newspack-theme/commit/b5e6476756d151654da45d2281336de2e70da457))
+* move the RSS image to the Newspack Plugin ([#2139](https://github.com/Automattic/newspack-theme/issues/2139)) ([887c5b4](https://github.com/Automattic/newspack-theme/commit/887c5b4a099220cb8f3f5036948348a1476d33a9))
+
+# [1.75.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.75.0-alpha.1...v1.75.0-alpha.2) (2023-06-30)
+
+
+### Bug Fixes
+
+* add default for the archive image cropping ([#2151](https://github.com/Automattic/newspack-theme/issues/2151)) ([279d66e](https://github.com/Automattic/newspack-theme/commit/279d66e8a579fadf3600eb3facc6b7ffbf6e5417))
+
+# [1.75.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.74.0...v1.75.0-alpha.1) (2023-06-22)
+
+
+### Bug Fixes
+
+* correct sidebar link colour ([#2131](https://github.com/Automattic/newspack-theme/issues/2131)) ([a3ff141](https://github.com/Automattic/newspack-theme/commit/a3ff141db636396eb44376417889348cfc9f28f2))
+* correct sponsor logo size ([#2130](https://github.com/Automattic/newspack-theme/issues/2130)) ([6baab49](https://github.com/Automattic/newspack-theme/commit/6baab494007b601321c01741e3834db878bdd401))
+
+
+### Features
+
+* add option to disable archive image cropping ([#2145](https://github.com/Automattic/newspack-theme/issues/2145)) ([82cac47](https://github.com/Automattic/newspack-theme/commit/82cac47f26f1b274b32b5b1ef83e8d69dc82645b))
+* hide/unset alternative logos when multibranded is enabled ([#2132](https://github.com/Automattic/newspack-theme/issues/2132)) ([575d7f9](https://github.com/Automattic/newspack-theme/commit/575d7f901274719d92fdc9f4034003bfff0b5827))
+* improve mobile styles for related posts ([#2129](https://github.com/Automattic/newspack-theme/issues/2129)) ([b5e6476](https://github.com/Automattic/newspack-theme/commit/b5e6476756d151654da45d2281336de2e70da457))
+* move the RSS image to the Newspack Plugin ([#2139](https://github.com/Automattic/newspack-theme/issues/2139)) ([887c5b4](https://github.com/Automattic/newspack-theme/commit/887c5b4a099220cb8f3f5036948348a1476d33a9))
+
+# [1.74.0](https://github.com/Automattic/newspack-theme/compare/v1.73.0...v1.74.0) (2023-06-19)
+
+
+### Bug Fixes
+
+* correct highlight menu colour ([#2112](https://github.com/Automattic/newspack-theme/issues/2112)) ([6a18039](https://github.com/Automattic/newspack-theme/commit/6a18039c5d7aebd92efc08e6db6d7b0717871949))
+* correct typo in the multi-branded site UI ([#2137](https://github.com/Automattic/newspack-theme/issues/2137)) ([c3106ff](https://github.com/Automattic/newspack-theme/commit/c3106ff7b12ec85d2a81ebb75e689478ee3826c0))
+* move caption check to fix campaigns issue ([#2127](https://github.com/Automattic/newspack-theme/issues/2127)) ([90e9555](https://github.com/Automattic/newspack-theme/commit/90e95556776b2823fbc799a0ac21257e5fdfdb2c))
+
+
+### Features
+
+* register header and footer colors to Multibranded plugin ([#2124](https://github.com/Automattic/newspack-theme/issues/2124)) ([7854f97](https://github.com/Automattic/newspack-theme/commit/7854f97232f7cc08bd702c7af82457517520ce7f))
+
+# [1.74.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.74.0-alpha.1...v1.74.0-alpha.2) (2023-06-12)
+
+
+### Bug Fixes
+
+* correct typo in the multi-branded site UI ([#2137](https://github.com/Automattic/newspack-theme/issues/2137)) ([c3106ff](https://github.com/Automattic/newspack-theme/commit/c3106ff7b12ec85d2a81ebb75e689478ee3826c0))
+* move caption check to fix campaigns issue ([#2127](https://github.com/Automattic/newspack-theme/issues/2127)) ([90e9555](https://github.com/Automattic/newspack-theme/commit/90e95556776b2823fbc799a0ac21257e5fdfdb2c))
+
+# [1.74.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.73.0...v1.74.0-alpha.1) (2023-06-08)
+
+
+### Bug Fixes
+
+* correct highlight menu colour ([#2112](https://github.com/Automattic/newspack-theme/issues/2112)) ([6a18039](https://github.com/Automattic/newspack-theme/commit/6a18039c5d7aebd92efc08e6db6d7b0717871949))
+
+
+### Features
+
+* register header and footer colors to Multibranded plugin ([#2124](https://github.com/Automattic/newspack-theme/issues/2124)) ([7854f97](https://github.com/Automattic/newspack-theme/commit/7854f97232f7cc08bd702c7af82457517520ce7f))
+
 # [1.73.0](https://github.com/Automattic/newspack-theme/compare/v1.72.0...v1.73.0) (2023-06-05)
 
 
