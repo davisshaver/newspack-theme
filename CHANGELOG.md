@@ -1,3 +1,17 @@
+## [1.79.2](https://github.com/Automattic/newspack-theme/compare/v1.79.1...v1.79.2) (2023-11-10)
+
+
+### Bug Fixes
+
+* avoid fatals on TEC updates ([#2203](https://github.com/Automattic/newspack-theme/issues/2203)) ([83ed541](https://github.com/Automattic/newspack-theme/commit/83ed5411342f2180a636b93e06d69679acde1679))
+
+## [1.79.1](https://github.com/Automattic/newspack-theme/compare/v1.79.0...v1.79.1) (2023-11-08)
+
+
+### Bug Fixes
+
+* force release due to last commit being chore ([ee17396](https://github.com/Automattic/newspack-theme/commit/ee17396574f956f17842e64c3ac10b88f0cf5ee6))
+
 # [1.79.0](https://github.com/Automattic/newspack-theme/compare/v1.78.0...v1.79.0) (2023-10-31)
 
 

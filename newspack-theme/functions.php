@@ -95,11 +95,13 @@ if ( ! function_exists( 'newspack_setup' ) ) :
 		add_theme_support(
 			'html5',
 			array(
-				'search-form',
+				'caption',
 				'comment-form',
 				'comment-list',
 				'gallery',
-				'caption',
+				'script',
+				'search-form',
+				'style',
 			)
 		);
 
@@ -1345,3 +1347,8 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 if ( class_exists( 'Newspack_Multibranded_Site\Customizations\Theme_Colors' ) ) {
 	require get_template_directory() . '/inc/newspack-multibranded-site-plugin.php';
 }
+
+/**
+ * Woo Templates cache handling
+ */
+require get_template_directory() . '/woocommerce/templates.php';
