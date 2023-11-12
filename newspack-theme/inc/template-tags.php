@@ -88,7 +88,7 @@ if ( ! function_exists( 'newspack_posted_by' ) ) :
 			return;
 		}
 
-		if ( function_exists( 'coauthors_posts_links' ) && ! empty( get_coauthors() ) ) : // phpcs:ignore PHPCompatibility.LanguageConstructs.NewEmptyNonVariable.Found
+		if ( function_exists( 'coauthors_posts_links' ) && ! empty( get_coauthors() ) && 'post' === get_post_type() ) : // phpcs:ignore PHPCompatibility.LanguageConstructs.NewEmptyNonVariable.Found
 
 			$authors      = get_coauthors();
 			$author_count = count( $authors );
