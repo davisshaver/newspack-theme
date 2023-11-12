@@ -905,7 +905,7 @@ function newspack_register_meta() {
 	);
 
 	register_post_meta(
-		['link', 'release'],
+		'release',
 		'link_org',
 		array(
 			'show_in_rest' => true,
@@ -916,12 +916,12 @@ function newspack_register_meta() {
 
 
 	register_post_meta(
-		['link', 'release'],
+		'release',
 		'link_sponsored',
 		array(
 			'show_in_rest' => true,
 			'single'       => true,
-			'type'         => 'boolean',
+			'type'         => 'number',
 		)
 	);
 
