@@ -895,7 +895,7 @@ function newspack_register_meta() {
 	);
 
 	register_post_meta(
-		['link', 'release'],
+		'link',
 		'link',
 		array(
 			'show_in_rest' => true,
@@ -905,7 +905,17 @@ function newspack_register_meta() {
 	);
 
 	register_post_meta(
-		['post', 'release'],
+		'release',
+		'link',
+		array(
+			'show_in_rest' => true,
+			'single'       => true,
+			'type'         => 'string',
+		)
+	);
+
+	register_post_meta(
+		'',
 		'terminal_featured_meta_caption',
 		array(
 			'show_in_rest' => true,
@@ -915,7 +925,7 @@ function newspack_register_meta() {
 	);
 
 	register_post_meta(
-		['post', 'release'],
+		'',
 		'terminal_featured_meta_credit',
 		array(
 			'show_in_rest' => true,
