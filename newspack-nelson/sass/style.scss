@@ -56,7 +56,7 @@ body:not( .h-stk ) .site-content,
 body:not( .h-stk ).hide-page-title .site-content,
 body:not( .h-stk ).newspack-front-page.hide-homepage-title .site-content,
 body:not( .h-stk ):not( .newspack-front-page )
-	.newspack_global_ad.global_below_header
+	.newspack_global_dad.global_below_header
 	+ .site-content,
 body:not( .h-stk ) .site-breadcrumb {
 	@include utilities.media( tablet ) {
@@ -679,7 +679,7 @@ blockquote {
 
 // Ads
 
-.newspack_global_ad.global_below_header {
+.newspack_global_dad.global_below_header {
 	display: none;
 }
 
