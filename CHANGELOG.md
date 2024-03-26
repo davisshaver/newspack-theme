@@ -1,3 +1,57 @@
+# [1.87.0](https://github.com/Automattic/newspack-theme/compare/v1.86.0...v1.87.0) (2024-03-25)
+
+
+### Features
+
+* add large image size for larger featured images ([#2254](https://github.com/Automattic/newspack-theme/issues/2254)) ([86be097](https://github.com/Automattic/newspack-theme/commit/86be0978fcacbfc4243144ba9c721d766b35789b))
+
+# [1.87.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.86.0...v1.87.0-alpha.1) (2024-03-07)
+
+
+### Features
+
+* add large image size for larger featured images ([#2254](https://github.com/Automattic/newspack-theme/issues/2254)) ([86be097](https://github.com/Automattic/newspack-theme/commit/86be0978fcacbfc4243144ba9c721d766b35789b))
+
+# [1.86.0](https://github.com/Automattic/newspack-theme/compare/v1.85.1...v1.86.0) (2024-03-06)
+
+
+### Features
+
+* add theme option to show image captions/credits in archives ([#2257](https://github.com/Automattic/newspack-theme/issues/2257)) ([ef50172](https://github.com/Automattic/newspack-theme/commit/ef50172c0a5507a011eec5f7b88beda1798b65b0))
+
+## [1.85.1](https://github.com/Automattic/newspack-theme/compare/v1.85.0...v1.85.1) (2024-02-21)
+
+
+### Bug Fixes
+
+* correct button visited color ([#2247](https://github.com/Automattic/newspack-theme/issues/2247)) ([da10aec](https://github.com/Automattic/newspack-theme/commit/da10aecb80f67869d7b71196ed7189e67da406f8))
+
+# [1.85.0](https://github.com/Automattic/newspack-theme/compare/v1.84.1...v1.85.0) (2024-02-20)
+
+
+### Bug Fixes
+
+* **my-account:** fixes for My Account ([#2240](https://github.com/Automattic/newspack-theme/issues/2240)) ([90f2b8f](https://github.com/Automattic/newspack-theme/commit/90f2b8f805c8de02e1b68cefe6dc1901d1051e18))
+
+
+### Features
+
+* **ci:** add epic/* release workflow and rename `master` to `trunk` ([#2225](https://github.com/Automattic/newspack-theme/issues/2225)) ([86e6ada](https://github.com/Automattic/newspack-theme/commit/86e6ada53147925df1bd50eac00dd00527995203))
+* simplify footer credits ([#2222](https://github.com/Automattic/newspack-theme/issues/2222)) ([01ef71d](https://github.com/Automattic/newspack-theme/commit/01ef71d020384062c5567e70fa5728eec599df0d))
+
+# [1.85.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.84.1...v1.85.0-alpha.1) (2024-02-08)
+
+
+### Bug Fixes
+
+* **my-account:** fixes for My Account ([#2240](https://github.com/Automattic/newspack-theme/issues/2240)) ([90f2b8f](https://github.com/Automattic/newspack-theme/commit/90f2b8f805c8de02e1b68cefe6dc1901d1051e18))
+
+
+### Features
+
+* **ci:** add epic/* release workflow and rename `master` to `trunk` ([#2225](https://github.com/Automattic/newspack-theme/issues/2225)) ([86e6ada](https://github.com/Automattic/newspack-theme/commit/86e6ada53147925df1bd50eac00dd00527995203))
+* simplify footer credits ([#2222](https://github.com/Automattic/newspack-theme/issues/2222)) ([01ef71d](https://github.com/Automattic/newspack-theme/commit/01ef71d020384062c5567e70fa5728eec599df0d))
+
 ## [1.84.1](https://github.com/Automattic/newspack-theme/compare/v1.84.0...v1.84.1) (2024-02-06)
 
 
