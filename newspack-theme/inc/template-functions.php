@@ -19,7 +19,11 @@ if ( ! function_exists( 'newspack_featured_image_position' ) ) :
 
 		// Get thumbnail
 		$thumbnail_info = wp_get_attachment_metadata( get_post_thumbnail_id() );
-		$img_width      = $thumbnail_info['width'];
+		
+		// DS patch 4/29 to prevet undefined array key error.
+		$img_width      = ! empty( $thumbnail_info ) && ! empty( $thumbnail_info['width'] ) ?
+			$thumbnail_info['width'] :
+			0;
 
 		// Get per-post image position setting.
 		$image_pos = get_post_meta( get_the_ID(), 'newspack_featured_image_position', true );
