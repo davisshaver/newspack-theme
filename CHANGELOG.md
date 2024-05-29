@@ -1,3 +1,53 @@
+## [1.88.2](https://github.com/Automattic/newspack-theme/compare/v1.88.1...v1.88.2) (2024-05-28)
+
+
+### Bug Fixes
+
+* **homepage-posts:** handle "time ago" format in HBP ([e4e8af5](https://github.com/Automattic/newspack-theme/commit/e4e8af558c9e0e2823b3b9e4c781704cb20237ee))
+
+## [1.88.2-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.88.1...v1.88.2-alpha.1) (2024-05-23)
+
+
+### Bug Fixes
+
+* **homepage-posts:** handle "time ago" format in HBP ([e4e8af5](https://github.com/Automattic/newspack-theme/commit/e4e8af558c9e0e2823b3b9e4c781704cb20237ee))
+
+## [1.88.1-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.88.0...v1.88.1-alpha.1) (2024-05-20)
+
+
+### Bug Fixes
+
+* **homepage-posts:** handle "time ago" format in HBP ([e4e8af5](https://github.com/Automattic/newspack-theme/commit/e4e8af558c9e0e2823b3b9e4c781704cb20237ee))
+* dont update option on every request ([3d30e62](https://github.com/Automattic/newspack-theme/commit/3d30e62d26968485bc9aee13b287fd37dad1d031))
+
+# [1.88.0](https://github.com/Automattic/newspack-theme/compare/v1.87.2...v1.88.0) (2024-05-15)
+
+
+### Features
+
+* remove period from copyright ([#2284](https://github.com/Automattic/newspack-theme/issues/2284)) ([ebc2d24](https://github.com/Automattic/newspack-theme/commit/ebc2d249f2079545f85c169f943ea59ea4bef8ff))
+
+# [1.88.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.87.2...v1.88.0-alpha.1) (2024-04-25)
+
+
+### Features
+
+* remove period from copyright ([#2284](https://github.com/Automattic/newspack-theme/issues/2284)) ([ebc2d24](https://github.com/Automattic/newspack-theme/commit/ebc2d249f2079545f85c169f943ea59ea4bef8ff))
+
+## [1.87.2](https://github.com/Automattic/newspack-theme/compare/v1.87.1...v1.87.2) (2024-04-24)
+
+
+### Bug Fixes
+
+* make single post subtitle styles more specific ([#2271](https://github.com/Automattic/newspack-theme/issues/2271)) ([5c7a834](https://github.com/Automattic/newspack-theme/commit/5c7a8342887c4e71262af2a316c2d7cfd017ed4f))
+
+## [1.87.2-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.87.1...v1.87.2-alpha.1) (2024-04-11)
+
+
+### Bug Fixes
+
+* make single post subtitle styles more specific ([#2271](https://github.com/Automattic/newspack-theme/issues/2271)) ([5c7a834](https://github.com/Automattic/newspack-theme/commit/5c7a8342887c4e71262af2a316c2d7cfd017ed4f))
+
 ## [1.87.1](https://github.com/Automattic/newspack-theme/compare/v1.87.0...v1.87.1) (2024-03-27)
 
 
