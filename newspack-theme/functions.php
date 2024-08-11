@@ -903,7 +903,7 @@ function newspack_register_meta() {
 		'post',
 		'newspack_article_summary_title',
 		array(
-			'default'      => esc_html__( 'Overview:', 'newspack' ),
+			'default'      => esc_html__( 'Quick Take:', 'newspack' ),
 			'show_in_rest' => true,
 			'single'       => true,
 			'type'         => 'string',
