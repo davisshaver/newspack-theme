@@ -1,3 +1,93 @@
+# [2.0.0](https://github.com/Automattic/newspack-theme/compare/v1.92.0...v2.0.0) (2024-08-13)
+
+
+### Bug Fixes
+
+* update dependencies to support `@wordpress/scripts` ([#2318](https://github.com/Automattic/newspack-theme/issues/2318)) ([1ee216c](https://github.com/Automattic/newspack-theme/commit/1ee216cc1815f32d028524a21a9a8a6a09cfab3f))
+
+
+### BREAKING CHANGES
+
+* Updates dependencies for compatibility with WordPress 6.6.*, but breaks JS in WordPress 6.5.* and below. If you need support for WP 6.5.*, please do not upgrade to this new major version.
+
+* chore: refactor for newspack-scripts dependency updates
+
+* refactor: use proxy script for eslint and stylelint scripts
+
+* chore: update newspack-scripts to v5.6.0-alpha.3
+
+* fix: actually update newspack-scripts to v5.6.0-alpha.3
+
+* chore: update newspack-scripts to v5.6.0-alpha.4
+
+* fix: semantic-release script
+
+* fix: add missing Prettier config files
+
+* chore: update newspack-scripts to 5.6.0-alpha.5
+
+* chore: update newspack-scripts to v5.6.0-alpha.7
+
+* fix: reformat SCSS
+
+* chore: update newspack-scripts to v5.6.0-alpha.8
+
+* fix: broken composer lockfile
+
+* chore: bump newspack-scripts to v5.5.2
+
+# [2.0.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.92.0...v2.0.0-alpha.1) (2024-08-02)
+
+
+### Bug Fixes
+
+* update dependencies to support `@wordpress/scripts` ([#2318](https://github.com/Automattic/newspack-theme/issues/2318)) ([1ee216c](https://github.com/Automattic/newspack-theme/commit/1ee216cc1815f32d028524a21a9a8a6a09cfab3f))
+
+
+### BREAKING CHANGES
+
+* Updates dependencies for compatibility with WordPress 6.6.*, but breaks JS in WordPress 6.5.* and below. If you need support for WP 6.5.*, please do not upgrade to this new major version.
+
+* chore: refactor for newspack-scripts dependency updates
+
+* refactor: use proxy script for eslint and stylelint scripts
+
+* chore: update newspack-scripts to v5.6.0-alpha.3
+
+* fix: actually update newspack-scripts to v5.6.0-alpha.3
+
+* chore: update newspack-scripts to v5.6.0-alpha.4
+
+* fix: semantic-release script
+
+* fix: add missing Prettier config files
+
+* chore: update newspack-scripts to 5.6.0-alpha.5
+
+* chore: update newspack-scripts to v5.6.0-alpha.7
+
+* fix: reformat SCSS
+
+* chore: update newspack-scripts to v5.6.0-alpha.8
+
+* fix: broken composer lockfile
+
+* chore: bump newspack-scripts to v5.5.2
+
+# [1.92.0](https://github.com/Automattic/newspack-theme/compare/v1.91.0...v1.92.0) (2024-07-30)
+
+
+### Features
+
+* add newspack-block-theme backwards compatibility ([#2315](https://github.com/Automattic/newspack-theme/issues/2315)) ([0e60c3a](https://github.com/Automattic/newspack-theme/commit/0e60c3ab00b18d8736f03e68346f29739066a5cc))
+
+# [1.92.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.91.0...v1.92.0-alpha.1) (2024-07-19)
+
+
+### Features
+
+* add newspack-block-theme backwards compatibility ([#2315](https://github.com/Automattic/newspack-theme/issues/2315)) ([0e60c3a](https://github.com/Automattic/newspack-theme/commit/0e60c3ab00b18d8736f03e68346f29739066a5cc))
+
 # [1.91.0](https://github.com/Automattic/newspack-theme/compare/v1.90.5...v1.91.0) (2024-07-15)
 
 
