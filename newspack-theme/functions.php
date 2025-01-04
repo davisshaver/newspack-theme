@@ -401,6 +401,18 @@ function newspack_widgets_init() {
 
 	register_sidebar(
 		array(
+			'name'          => __( 'Article below comments', 'newspack' ),
+			'id'            => 'article-3',
+			'description'   => __( 'Add widgets here to appear below article comments.', 'newspack' ),
+			'before_widget' => '<section id="%1$s" class="below-content widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+	register_sidebar(
+		array(
 			'name'          => __( 'Article above comments', 'newspack' ),
 			'id'            => 'article-above-comments',
 			'description'   => __( 'Add widgets here to appear above article comments.', 'newspack' ),
