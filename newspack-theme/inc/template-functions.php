@@ -782,3 +782,26 @@ function newspack_inject_post_summary( $content ) {
 	return newspack_post_summary_markup( $summary ) . $content;
 }
 add_filter( 'the_content', 'newspack_inject_post_summary', 11 );
+
+/**
+ * Change the number of corrections per page for the Corrections archive.
+ *
+ * @param WP_Query $query The WP_Query instance.
+ */
+function newspack_corrections_per_page( $query ) {
+	if (
+		! class_exists( 'Newspack\Corrections' )
+		|| is_admin()
+		|| ! $query->is_main_query()
+		|| ! is_post_type_archive( \Newspack\Corrections::POST_TYPE )
+	) {
+		return;
+	}
+
+	$per_page = defined( 'NEWSPACK_CORRECTIONS_ARCHIVE_PER_PAGE' ) && is_int( NEWSPACK_CORRECTIONS_ARCHIVE_PER_PAGE ) ? NEWSPACK_CORRECTIONS_ARCHIVE_PER_PAGE : 20;
+
+	$query->set( 'posts_per_page', $per_page );
+
+	return $query;
+}
+add_filter( 'pre_get_posts', 'newspack_corrections_per_page' );
