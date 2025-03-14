@@ -61,10 +61,11 @@ if ( ! function_exists( 'newspack_setup' ) ) :
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
-		set_post_thumbnail_size( 1568, 9999 );
+		set_post_thumbnail_size( 1200, 9999 );
 
 		add_image_size( 'newspack-featured-image', 1200, 9999 );
 		add_image_size( 'newspack-featured-image-large', 2000, 9999 );
+		add_image_size( 'newspack-featured-image-small', 780, 9999 );
 		add_image_size( 'newspack-archive-image', 800, 600, true );
 		add_image_size( 'newspack-archive-image-large', 1200, 900, true );
 		add_image_size( 'newspack-footer-logo', 400, 9999 );
