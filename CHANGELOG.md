@@ -1,3 +1,10 @@
+# [2.8.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v2.8.0-alpha.1...v2.8.0-alpha.2) (2025-03-28)
+
+
+### Bug Fixes
+
+* change content_width function name ([#2470](https://github.com/Automattic/newspack-theme/issues/2470)) ([8e5f229](https://github.com/Automattic/newspack-theme/commit/8e5f2293f7dc52c476f81bce11d9db50964dbcef))
+
 # [2.8.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v2.7.0...v2.8.0-alpha.1) (2025-03-20)
 
 
