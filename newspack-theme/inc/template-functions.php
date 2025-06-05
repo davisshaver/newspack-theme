@@ -229,6 +229,12 @@ function newspack_body_classes( $classes ) {
 		$classes[] = 'archive-' . esc_attr( $archive_layout );
 	}
 
+	// Adds a class for the archive page layout.
+	$archive_list_or_grid = get_theme_mod( 'archive_list_or_grid', 'list' );
+	if ( is_archive() && 'list' !== $archive_list_or_grid ) {
+		$classes[] = 'archive-grid';
+	}
+
 	// Add a class when using the 'featured latest' archive layout.
 	$feature_latest_post = get_theme_mod( 'archive_feature_latest_post', true );
 	if ( is_archive() && true === $feature_latest_post && ! is_post_type_archive( 'tribe_events' ) ) {
