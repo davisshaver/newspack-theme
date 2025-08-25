@@ -130,14 +130,14 @@ function newspack_custom_typography_link( $theme_mod ) {
 function newspack_get_font_stacks() {
 	return array(
 		'serif'      => array(
-			'name'  => __( 'Serif', 'newspack' ),
+			'name'  => __( 'Serif', 'newspack-theme' ),
 			'fonts' => array(
 				'Georgia',
 				'serif',
 			),
 		),
 		'sans_serif' => array(
-			'name'  => __( 'Sans Serif', 'newspack' ),
+			'name'  => __( 'Sans Serif', 'newspack-theme' ),
 			'fonts' => array(
 				'Roboto-Fallback-Helvetica',
 				'Roboto-Fallback-Arial',
@@ -145,7 +145,7 @@ function newspack_get_font_stacks() {
 			),
 		),
 		'display'    => array(
-			'name'  => __( 'Display', 'newspack' ),
+			'name'  => __( 'Display', 'newspack-theme' ),
 			'fonts' => array(
 				'Impact',
 				'Arial Black',
@@ -153,7 +153,7 @@ function newspack_get_font_stacks() {
 			),
 		),
 		'monospace'  => array(
-			'name'  => __( 'Monospace', 'newspack' ),
+			'name'  => __( 'Monospace', 'newspack-theme' ),
 			'fonts' => array(
 				'Consolas',
 				'Courier New',
