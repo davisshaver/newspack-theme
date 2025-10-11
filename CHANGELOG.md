@@ -1,3 +1,31 @@
+## [2.14.3](https://github.com/Automattic/newspack-theme/compare/v2.14.2...v2.14.3) (2025-10-06)
+
+
+### Bug Fixes
+
+* correct another case of archive grid messing with collections ([#2562](https://github.com/Automattic/newspack-theme/issues/2562)) ([36b6fbb](https://github.com/Automattic/newspack-theme/commit/36b6fbbf249f03bcaf1c893af5c9f2158e74b3b8))
+
+## [2.14.2](https://github.com/Automattic/newspack-theme/compare/v2.14.1...v2.14.2) (2025-09-24)
+
+
+### Bug Fixes
+
+* make sure collections don't pick up the archive grid styles ([#2556](https://github.com/Automattic/newspack-theme/issues/2556)) ([eb92d3c](https://github.com/Automattic/newspack-theme/commit/eb92d3cc7ed7391415ffd98e77ae0e2b163bb76d))
+
+## [2.14.1](https://github.com/Automattic/newspack-theme/compare/v2.14.0...v2.14.1) (2025-09-22)
+
+
+### Bug Fixes
+
+* **collections:** hide author on collection category archives and add a guard for empty authors ([#2548](https://github.com/Automattic/newspack-theme/issues/2548)) ([70ba17d](https://github.com/Automattic/newspack-theme/commit/70ba17deb31a905f388ad3cf7e634c80670d0b7f))
+
+## [2.14.1-alpha.1](https://github.com/Automattic/newspack-theme/compare/v2.14.0...v2.14.1-alpha.1) (2025-09-11)
+
+
+### Bug Fixes
+
+* **collections:** hide author on collection category archives and add a guard for empty authors ([#2548](https://github.com/Automattic/newspack-theme/issues/2548)) ([70ba17d](https://github.com/Automattic/newspack-theme/commit/70ba17deb31a905f388ad3cf7e634c80670d0b7f))
+
 # [2.14.0](https://github.com/Automattic/newspack-theme/compare/v2.13.0...v2.14.0) (2025-09-08)
 
 
