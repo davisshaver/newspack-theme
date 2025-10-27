@@ -1,3 +1,17 @@
+## [2.14.4](https://github.com/Automattic/newspack-theme/compare/v2.14.3...v2.14.4) (2025-10-27)
+
+
+### Bug Fixes
+
+* filter to hide dummy emails ([#2574](https://github.com/Automattic/newspack-theme/issues/2574)) ([0674c8a](https://github.com/Automattic/newspack-theme/commit/0674c8acbfd20999f9f78f7235cb292bbf62fd6f))
+
+## [2.14.4-hotfix-hide-dummy-email-2.1](https://github.com/Automattic/newspack-theme/compare/v2.14.3...v2.14.4-hotfix-hide-dummy-email-2.1) (2025-10-27)
+
+
+### Bug Fixes
+
+* filter to hide dummy emails ([741ec19](https://github.com/Automattic/newspack-theme/commit/741ec199c3fe52ac07c96e7db2cdfa577751d6f4))
+
 ## [2.14.3](https://github.com/Automattic/newspack-theme/compare/v2.14.2...v2.14.3) (2025-10-06)
 
 
