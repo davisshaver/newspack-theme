@@ -33,7 +33,7 @@ if ( ! function_exists( 'newspack_featured_image_position' ) ) :
 
 		$image_wide_width = 1200;
 		if ( (
-			'large' === $position && $image_wide_width > $thumbnail_info['width'] )
+			'large' === $position && ! empty( $thumbnail_info['width'] ) && $image_wide_width > $thumbnail_info['width'] )
 			|| ! in_array( get_post_type(), newspack_get_featured_image_post_types() )
 		) {
 			$position = 'small';
