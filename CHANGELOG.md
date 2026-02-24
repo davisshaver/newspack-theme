@@ -1,3 +1,10 @@
+## [2.18.2](https://github.com/Automattic/newspack-theme/compare/v2.18.1...v2.18.2) (2026-02-24)
+
+
+### Bug Fixes
+
+* try bumping newspack-scripts ([#2638](https://github.com/Automattic/newspack-theme/issues/2638)) ([55c0c5e](https://github.com/Automattic/newspack-theme/commit/55c0c5ed2c8486d2b8810e3353426cb1ea6ea6fe))
+
 ## [2.18.1](https://github.com/Automattic/newspack-theme/compare/v2.18.0...v2.18.1) (2026-02-23)
 
 
