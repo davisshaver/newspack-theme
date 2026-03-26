@@ -254,18 +254,13 @@ if ( ! function_exists( 'newspack_categories' ) ) :
 	 * Prints HTML with the current post's categories.
 	 */
 	function newspack_categories() {
-		$categories_list     = '';
-		$primary_cat_enabled = get_theme_mod( 'post_primary_category', true );
+		$categories_list = '';
 
-		// Only display Yoast primary category if set.
-		if ( class_exists( 'WPSEO_Primary_Term' ) && $primary_cat_enabled ) {
-			$primary_term = new WPSEO_Primary_Term( 'category', get_the_ID() );
-			$category_id  = $primary_term->get_primary_term();
-			if ( $category_id ) {
-				$category = get_term( $category_id );
-				if ( $category ) {
-					$categories_list = '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" rel="category tag">' . $category->name . '</a>';
-				}
+		// Use the shared Primary_Category utility from newspack-plugin if available.
+		if ( class_exists( 'Newspack\Primary_Category' ) ) {
+			$primary = \Newspack\Primary_Category::get();
+			if ( $primary ) {
+				$categories_list = '<a href="' . esc_url( get_category_link( $primary->term_id ) ) . '" rel="category tag">' . esc_html( $primary->name ) . '</a>';
 			}
 		}
 

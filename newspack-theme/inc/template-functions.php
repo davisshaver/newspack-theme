@@ -187,14 +187,10 @@ function newspack_body_classes( $classes ) {
 	}
 
 	// Add a special class for the single post's primary category.
-	if ( is_single() && class_exists( 'WPSEO_Primary_Term' ) ) {
-		$primary_term = new WPSEO_Primary_Term( 'category', $page_id );
-		$category_id  = $primary_term->get_primary_term();
-		if ( $category_id ) {
-			$category = get_term( $category_id );
-			if ( $category ) {
-				$classes[] = 'primary-cat-' . $category->slug;
-			}
+	if ( is_single() && class_exists( 'Newspack\Primary_Category' ) ) {
+		$primary = \Newspack\Primary_Category::get( $page_id );
+		if ( $primary ) {
+			$classes[] = 'primary-cat-' . $primary->slug;
 		}
 	}
 
