@@ -5,7 +5,7 @@
 @use "../../newspack-theme/sass/variables-site/structure";
 
 /* Body */
-body {
+body:not(.newspack-ui) {
 	outline: 1px solid;
 	outline-offset: -#{0.5 * structure.$size__spacing-unit};
 	padding: #{0.5 * structure.$size__spacing-unit};
@@ -359,13 +359,16 @@ textarea {
 
 //! Pullquote
 .wp-block-pullquote {
-	border: 0;
-	border-bottom: 2px solid;
-	border-top: 1px solid;
 	font-family: var(--newspack-theme-font-heading);
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
+
+	&:not([style*='border']) {
+		border: 0;
+		border-bottom: 2px solid;
+		border-top: 1px solid;
+	}
 
 	p {
 		font-style: inherit;

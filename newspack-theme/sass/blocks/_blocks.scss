@@ -78,7 +78,8 @@
 .newspack-front-page,
 .post-template-single-wide,
 .page-template-single-wide {
-	.entry .entry-content {
+	.entry .entry-content,
+	.newspack-content-gate__inline-gate {
 		.alignwide {
 			@include utilities.media( tablet ) {
 				margin-left: calc(25% - 25vw);
@@ -630,6 +631,13 @@ p.has-background {
 	}
 }
 
+// Override Gutenberg's default pullquote border color for themes that don't have a pullquote border defined.
+body:not(.wp-child-theme-newspack-joseph):not(.wp-child-theme-newspack-nelson) .wp-block-pullquote {
+	&.wp-block-pullquote:not([style*='border']) {
+		border-color: transparent !important;
+	}
+}
+
 //! Latest Comments
 .wp-block-latest-comments {
 	padding-left: 0;
@@ -1017,6 +1025,16 @@ p.has-background {
 	}
 }
 
+.wp-lightbox-navigation-button,
+.wp-lightbox-close-button {
+	&,
+	&:hover,
+	&:focus,
+	&:active {
+		color: unset !important
+	}
+}
+
 //! Separator
 .wp-block-separator,
 hr {
@@ -1196,6 +1214,10 @@ hr {
 		&:last-child {
 			margin-bottom: 0;
 		}
+	}
+
+	&.has-background {
+		padding: 1.25em 2.375em;
 	}
 
 	@include utilities.media( mobile ) {
@@ -1645,6 +1667,7 @@ $colors: (
 .page-template-single-feature,
 .page-template-no-header-footer {
 	.entry .entry-content > *,
+	.newspack-content-gate__inline-gate > *,
 	[id="pico"] > * {
 		&.alignwide {
 			@include utilities.media( tablet ) {

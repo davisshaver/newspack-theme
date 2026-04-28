@@ -1,3 +1,149 @@
+# [2.21.0](https://github.com/Automattic/newspack-theme/compare/v2.20.3...v2.21.0) (2026-04-13)
+
+
+### Bug Fixes
+
+* **layout:** prevent horizontal scrollbar on full-bleed image positions ([#2667](https://github.com/Automattic/newspack-theme/issues/2667)) ([c92383b](https://github.com/Automattic/newspack-theme/commit/c92383b10824c10c80a9e1e8fb906dd495a6c6af))
+* **post-date:** move hook inside posted_on for markup preservation ([#2658](https://github.com/Automattic/newspack-theme/issues/2658)) ([fe6725a](https://github.com/Automattic/newspack-theme/commit/fe6725ab3638244f5a410ec18f2ae85e55d99697))
+
+
+### Features
+
+* **yoast:** use shared primary category utility from newspack-plugin ([#2655](https://github.com/Automattic/newspack-theme/issues/2655)) ([21908d7](https://github.com/Automattic/newspack-theme/commit/21908d79802a999c7299ef87c1aae9677dd88895))
+
+# [2.21.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v2.21.0-alpha.1...v2.21.0-alpha.2) (2026-04-08)
+
+
+### Bug Fixes
+
+* remove colour from gallery lightbox buttons ([#2666](https://github.com/Automattic/newspack-theme/issues/2666)) ([cec9eee](https://github.com/Automattic/newspack-theme/commit/cec9eee88d57aeaee36eb86134e38467ec0101d1))
+
+# [2.21.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v2.20.2...v2.21.0-alpha.1) (2026-04-02)
+
+
+### Bug Fixes
+
+* **layout:** prevent horizontal scrollbar on full-bleed image positions ([#2667](https://github.com/Automattic/newspack-theme/issues/2667)) ([c92383b](https://github.com/Automattic/newspack-theme/commit/c92383b10824c10c80a9e1e8fb906dd495a6c6af))
+* **post-date:** move hook inside posted_on for markup preservation ([#2658](https://github.com/Automattic/newspack-theme/issues/2658)) ([fe6725a](https://github.com/Automattic/newspack-theme/commit/fe6725ab3638244f5a410ec18f2ae85e55d99697))
+
+
+### Features
+
+* **yoast:** use shared primary category utility from newspack-plugin ([#2655](https://github.com/Automattic/newspack-theme/issues/2655)) ([21908d7](https://github.com/Automattic/newspack-theme/commit/21908d79802a999c7299ef87c1aae9677dd88895))
+
+## [2.20.3](https://github.com/Automattic/newspack-theme/compare/v2.20.2...v2.20.3) (2026-04-08)
+
+
+### Bug Fixes
+
+* remove colour from gallery lightbox buttons ([#2666](https://github.com/Automattic/newspack-theme/issues/2666)) ([cec9eee](https://github.com/Automattic/newspack-theme/commit/cec9eee88d57aeaee36eb86134e38467ec0101d1))
+
+## [2.20.2](https://github.com/Automattic/newspack-theme/compare/v2.20.1...v2.20.2) (2026-04-02)
+
+
+### Bug Fixes
+
+* remove bullets from categories, archives blocks in editor ([#2665](https://github.com/Automattic/newspack-theme/issues/2665)) ([12021af](https://github.com/Automattic/newspack-theme/commit/12021af578c6bb89bbfd790b8ee3e58b9cc53124))
+
+## [2.20.1](https://github.com/Automattic/newspack-theme/compare/v2.20.0...v2.20.1) (2026-04-02)
+
+
+### Bug Fixes
+
+* add default padding to theme ([#2664](https://github.com/Automattic/newspack-theme/issues/2664)) ([b680487](https://github.com/Automattic/newspack-theme/commit/b680487dc4826aa1ac1976ce1a9b8061c51e9855))
+
+# [2.20.0](https://github.com/Automattic/newspack-theme/compare/v2.19.0...v2.20.0) (2026-03-30)
+
+
+### Bug Fixes
+
+* **block-theme:** migrate newspack-theme modal checkout fixes ([#2648](https://github.com/Automattic/newspack-theme/issues/2648)) ([e4f9d91](https://github.com/Automattic/newspack-theme/commit/e4f9d91ab162a272cee9e33e58bfbf476473bb0a))
+* default pullquote borders ([#2630](https://github.com/Automattic/newspack-theme/issues/2630)) ([5eb0b76](https://github.com/Automattic/newspack-theme/commit/5eb0b76723e11439f5edd921c94d55188db2a217))
+* ensure editor fonts and widths are loaded in iframed editor ([#2649](https://github.com/Automattic/newspack-theme/issues/2649)) ([f49912e](https://github.com/Automattic/newspack-theme/commit/f49912e032be333813fd6cb9a364a55e6c7650f4))
+* tweak subtitle to work with iframe editor ([#2650](https://github.com/Automattic/newspack-theme/issues/2650)) ([86d4193](https://github.com/Automattic/newspack-theme/commit/86d4193d16075a469dcc46d221154ab82b3bdf85))
+
+
+### Features
+
+* add an avatar size control for author bios ([#2647](https://github.com/Automattic/newspack-theme/issues/2647)) ([ccfb6b4](https://github.com/Automattic/newspack-theme/commit/ccfb6b4edf2adb393ad1f00a0ac6e0a5797841ce))
+
+# [2.20.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v2.19.0...v2.20.0-alpha.1) (2026-03-19)
+
+
+### Bug Fixes
+
+* **block-theme:** migrate newspack-theme modal checkout fixes ([#2648](https://github.com/Automattic/newspack-theme/issues/2648)) ([e4f9d91](https://github.com/Automattic/newspack-theme/commit/e4f9d91ab162a272cee9e33e58bfbf476473bb0a))
+* default pullquote borders ([#2630](https://github.com/Automattic/newspack-theme/issues/2630)) ([5eb0b76](https://github.com/Automattic/newspack-theme/commit/5eb0b76723e11439f5edd921c94d55188db2a217))
+* ensure editor fonts and widths are loaded in iframed editor ([#2649](https://github.com/Automattic/newspack-theme/issues/2649)) ([f49912e](https://github.com/Automattic/newspack-theme/commit/f49912e032be333813fd6cb9a364a55e6c7650f4))
+* tweak subtitle to work with iframe editor ([#2650](https://github.com/Automattic/newspack-theme/issues/2650)) ([86d4193](https://github.com/Automattic/newspack-theme/commit/86d4193d16075a469dcc46d221154ab82b3bdf85))
+
+
+### Features
+
+* add an avatar size control for author bios ([#2647](https://github.com/Automattic/newspack-theme/issues/2647)) ([ccfb6b4](https://github.com/Automattic/newspack-theme/commit/ccfb6b4edf2adb393ad1f00a0ac6e0a5797841ce))
+
+# [2.19.0](https://github.com/Automattic/newspack-theme/compare/v2.18.3...v2.19.0) (2026-03-16)
+
+
+### Bug Fixes
+
+* fix watch for scss build ([#2640](https://github.com/Automattic/newspack-theme/issues/2640)) ([88d50af](https://github.com/Automattic/newspack-theme/commit/88d50afa9ff9e7f31ff37d67d45d1d4c2d754b68))
+* follow Copilot suggestion to wrap in double quotes and escape same in font names too ([71af6d5](https://github.com/Automattic/newspack-theme/commit/71af6d5b4251d5e0731ecded5002cf29f4db66e0))
+* force array output to ensure window.newspackFontLoading() doesn't emit unexpected JS objects ([68614c4](https://github.com/Automattic/newspack-theme/commit/68614c4ff150de703c54c17cedc6f8790da22213))
+* quote font names ([2585e72](https://github.com/Automattic/newspack-theme/commit/2585e727ad24334e289475814622e77ad1032bdd))
+* quote font names ([b6ab9f9](https://github.com/Automattic/newspack-theme/commit/b6ab9f91d916aefaa101531466690acf06a31f4a))
+* remove unnecessary character class, capture group; suggested by Claude ([5e44728](https://github.com/Automattic/newspack-theme/commit/5e4472820b9036a8dea935d3e978bd38dab34862))
+
+
+### Features
+
+* add agents, claude MD and update readme ([#2639](https://github.com/Automattic/newspack-theme/issues/2639)) ([8920552](https://github.com/Automattic/newspack-theme/commit/89205524a86b72080d36f36b9cd6587a735050f1))
+
+# [2.19.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v2.18.3...v2.19.0-alpha.1) (2026-03-05)
+
+
+### Bug Fixes
+
+* fix watch for scss build ([#2640](https://github.com/Automattic/newspack-theme/issues/2640)) ([88d50af](https://github.com/Automattic/newspack-theme/commit/88d50afa9ff9e7f31ff37d67d45d1d4c2d754b68))
+* follow Copilot suggestion to wrap in double quotes and escape same in font names too ([71af6d5](https://github.com/Automattic/newspack-theme/commit/71af6d5b4251d5e0731ecded5002cf29f4db66e0))
+* force array output to ensure window.newspackFontLoading() doesn't emit unexpected JS objects ([68614c4](https://github.com/Automattic/newspack-theme/commit/68614c4ff150de703c54c17cedc6f8790da22213))
+* quote font names ([2585e72](https://github.com/Automattic/newspack-theme/commit/2585e727ad24334e289475814622e77ad1032bdd))
+* quote font names ([b6ab9f9](https://github.com/Automattic/newspack-theme/commit/b6ab9f91d916aefaa101531466690acf06a31f4a))
+* remove unnecessary character class, capture group; suggested by Claude ([5e44728](https://github.com/Automattic/newspack-theme/commit/5e4472820b9036a8dea935d3e978bd38dab34862))
+
+
+### Features
+
+* add agents, claude MD and update readme ([#2639](https://github.com/Automattic/newspack-theme/issues/2639)) ([8920552](https://github.com/Automattic/newspack-theme/commit/89205524a86b72080d36f36b9cd6587a735050f1))
+
+## [2.18.3](https://github.com/Automattic/newspack-theme/compare/v2.18.2...v2.18.3) (2026-03-02)
+
+
+### Bug Fixes
+
+* prevent Newspack Joseph border on new My Account pages ([#2631](https://github.com/Automattic/newspack-theme/issues/2631)) ([98b5f90](https://github.com/Automattic/newspack-theme/commit/98b5f9087ef31a9f202eece1f77887ec64b52626))
+
+## [2.18.3-alpha.1](https://github.com/Automattic/newspack-theme/compare/v2.18.2...v2.18.3-alpha.1) (2026-02-24)
+
+
+### Bug Fixes
+
+* prevent Newspack Joseph border on new My Account pages ([#2631](https://github.com/Automattic/newspack-theme/issues/2631)) ([98b5f90](https://github.com/Automattic/newspack-theme/commit/98b5f9087ef31a9f202eece1f77887ec64b52626))
+
+## [2.18.2](https://github.com/Automattic/newspack-theme/compare/v2.18.1...v2.18.2) (2026-02-24)
+
+
+### Bug Fixes
+
+* try bumping newspack-scripts ([#2638](https://github.com/Automattic/newspack-theme/issues/2638)) ([55c0c5e](https://github.com/Automattic/newspack-theme/commit/55c0c5ed2c8486d2b8810e3353426cb1ea6ea6fe))
+
+## [2.18.1](https://github.com/Automattic/newspack-theme/compare/v2.18.0...v2.18.1) (2026-02-23)
+
+
+### Bug Fixes
+
+* update customizer checkbox sanitization ([#2637](https://github.com/Automattic/newspack-theme/issues/2637)) ([3367a95](https://github.com/Automattic/newspack-theme/commit/3367a9527334a0bb79a7b41f940fea349ea622ef))
+
 # [2.18.0](https://github.com/Automattic/newspack-theme/compare/v2.17.0...v2.18.0) (2026-02-16)
 
 
